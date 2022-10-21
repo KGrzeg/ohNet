@@ -1,6 +1,6 @@
-#include <OpenHome/Net/Core/CpProxy.h>
+#include <OpenHome/Net/CpProxy.h>
 #include <OpenHome/Net/Private/CpiService.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Thread.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

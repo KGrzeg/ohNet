@@ -8,8 +8,8 @@
 #define HEADER_DVI_STACK
 
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Env.h>
+#include <OpenHome/Thread.h>
 #include <OpenHome/Net/Private/DviServerUpnp.h>
 #include <OpenHome/Net/Private/DviDevice.h>
 #include <OpenHome/Net/Private/DviSubscription.h>
@@ -18,7 +18,7 @@
 #include <OpenHome/Net/Private/Bonjour.h>
 #include <OpenHome/Net/Private/DviPropertyUpdateCollection.h>
 #include <OpenHome/Net/Private/DviSsdpNotifier.h>
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 
 #include <vector>
 

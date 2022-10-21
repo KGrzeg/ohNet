@@ -1,13 +1,13 @@
 #include <OpenHome/Net/Private/DviServer.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Env.h>
 #include <OpenHome/Net/Private/DviStack.h>
-#include <OpenHome/Private/NetworkAdapterList.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Private/Printer.h>
-#include <OpenHome/Private/TIpAddressUtils.h>
+#include <OpenHome/NetworkAdapterList.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Printer.h>
+#include <OpenHome/TIpAddressUtils.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

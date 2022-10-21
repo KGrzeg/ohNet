@@ -1,15 +1,15 @@
 #ifndef HEADER_DVIPROTOCOLUPNP
 #define HEADER_DVIPROTOCOLUPNP
 
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/Private/DviDevice.h>
 #include <OpenHome/Net/Private/Discovery.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Uri.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Private/Timer.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Uri.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Timer.h>
 #include <OpenHome/Net/Private/Ssdp.h>
 #include <OpenHome/Functor.h>
 #include <OpenHome/Net/Private/DviServerUpnp.h>

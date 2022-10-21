@@ -1,4 +1,4 @@
-#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Net/Private/DviStack.h>
 #include <OpenHome/Net/Private/Globals.h>
 

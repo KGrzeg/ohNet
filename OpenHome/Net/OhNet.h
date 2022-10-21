@@ -7,13 +7,13 @@
 
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Net/Core/FunctorAsync.h>
+#include <OpenHome/Net/FunctorAsync.h>
 #include <OpenHome/FunctorMsg.h>
 #include <OpenHome/FunctorNetworkAdapter.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Net/C/OhNet.h> // for OhNetCallbackFreeExternal only
-#include <OpenHome/Private/Shell.h> // for Shell::kServerPortDefault only
+#include <OpenHome/Env.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Net/Bindings/C/OhNet.h> // for OhNetCallbackFreeExternal only
+#include <OpenHome/Shell/Shell.h> // for Shell::kServerPortDefault only
 
 #include <vector>
 

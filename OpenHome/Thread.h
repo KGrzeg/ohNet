@@ -1,7 +1,7 @@
 #ifndef HEADER_THREAD
 #define HEADER_THREAD
 
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Exception.h>
 #include <OpenHome/Functor.h>

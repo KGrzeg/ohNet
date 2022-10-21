@@ -1,7 +1,7 @@
 #ifndef HEADER_STREAM
 #define HEADER_STREAM
 
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Exception.h>

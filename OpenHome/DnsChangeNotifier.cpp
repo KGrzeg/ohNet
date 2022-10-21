@@ -1,11 +1,11 @@
-#include <OpenHome/Private/DnsChangeNotifier.h>
+#include <OpenHome/DnsChangeNotifier.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Exception.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Private/Printer.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Printer.h>
+#include <OpenHome/Thread.h>
 
 #include <utility>
 #include <vector>

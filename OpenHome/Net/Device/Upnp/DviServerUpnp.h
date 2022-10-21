@@ -2,11 +2,11 @@
 #define HEADER_DVI_SERVER_UPNP
 
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Private/Http.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Http.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/Private/DviDevice.h>
-#include <OpenHome/Private/Stream.h>
+#include <OpenHome/Stream.h>
 #include <OpenHome/Net/Private/DviService.h>
 #include <OpenHome/Net/Private/Subscription.h>
 #include <OpenHome/Net/Private/Service.h>

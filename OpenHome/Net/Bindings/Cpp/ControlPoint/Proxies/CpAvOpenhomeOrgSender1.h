@@ -4,8 +4,8 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Exception.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Net/Core/FunctorAsync.h>
-#include <OpenHome/Net/Core/CpProxy.h>
+#include <OpenHome/Net/FunctorAsync.h>
+#include <OpenHome/Net/CpProxy.h>
 
 #include <string>
 

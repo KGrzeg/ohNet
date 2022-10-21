@@ -1,6 +1,6 @@
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/Fifo.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/Fifo.h>
+#include <OpenHome/Thread.h>
 
 using namespace OpenHome;
 using namespace OpenHome::TestFramework;

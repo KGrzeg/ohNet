@@ -1,16 +1,16 @@
 #include <OpenHome/Net/Private/EventUpnp.h>
 #include <OpenHome/Net/Private/CpiSubscription.h>
-#include <OpenHome/Private/Http.h>
+#include <OpenHome/Http.h>
 #include <OpenHome/Net/Private/ProtocolUpnp.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Env.h>
 #include <OpenHome/Net/Private/CpiStack.h>
-#include <OpenHome/Private/Debug.h>
+#include <OpenHome/Debug.h>
 #include <OpenHome/Net/Private/XmlParser.h>
-#include <OpenHome/Net/Core/CpProxy.h>
+#include <OpenHome/Net/CpProxy.h>
 #include <OpenHome/Net/Private/ProtocolUpnp.h>
-#include <OpenHome/Private/Parser.h>
+#include <OpenHome/Parser.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

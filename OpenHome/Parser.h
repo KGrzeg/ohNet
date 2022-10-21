@@ -1,7 +1,7 @@
 #ifndef HEADER_ASCII_PARSER
 #define HEADER_ASCII_PARSER
 
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 

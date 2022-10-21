@@ -1,5 +1,5 @@
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/Queue.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/Queue.h>
 
 using namespace OpenHome;
 using namespace OpenHome::TestFramework;

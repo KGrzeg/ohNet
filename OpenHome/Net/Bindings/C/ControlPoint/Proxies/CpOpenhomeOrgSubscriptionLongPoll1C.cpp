@@ -1,16 +1,16 @@
 #include "CpOpenhomeOrgSubscriptionLongPoll1.h"
-#include <OpenHome/Net/Core/CpDevice.h>
-#include <OpenHome/Net/C/CpProxyCPrivate.h>
-#include <OpenHome/Net/Core/FunctorAsync.h>
+#include <OpenHome/Net/CpDevice.h>
+#include <OpenHome/Net/Bindings/C/CpProxyCPrivate.h>
+#include <OpenHome/Net/FunctorAsync.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Exception.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Net/Core/CpProxy.h>
+#include <OpenHome/Net/CpProxy.h>
 #include <OpenHome/Net/Private/CpiService.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Thread.h>
 #include <OpenHome/Net/Private/AsyncPrivate.h>
-#include <OpenHome/Net/Core/CpDevice.h>
+#include <OpenHome/Net/CpDevice.h>
 #include <OpenHome/Net/Private/CpiDevice.h>
 
 using namespace OpenHome;

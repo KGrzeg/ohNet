@@ -2,20 +2,20 @@
 #include <OpenHome/Net/Private/DviDevice.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Env.h>
 #include <OpenHome/Net/Private/DviStack.h>
-#include <OpenHome/Private/NetworkAdapterList.h>
+#include <OpenHome/NetworkAdapterList.h>
 #include <OpenHome/Net/Private/Discovery.h>
-#include <OpenHome/OsWrapper.h>
-#include <OpenHome/Private/Printer.h>
-#include <OpenHome/Private/Ascii.h>
+#include <Os/OsWrapper.h>
+#include <OpenHome/Printer.h>
+#include <OpenHome/Ascii.h>
 #include <OpenHome/Net/Private/DviServerUpnp.h>
 #include <OpenHome/Net/Private/Ssdp.h>
-#include <OpenHome/Private/Converter.h>
-#include <OpenHome/Private/Parser.h>
-#include <OpenHome/Private/Debug.h>
+#include <OpenHome/Converter.h>
+#include <OpenHome/Parser.h>
+#include <OpenHome/Debug.h>
 #include <OpenHome/MimeTypes.h>
-#include <OpenHome/Private/TIpAddressUtils.h>
+#include <OpenHome/TIpAddressUtils.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

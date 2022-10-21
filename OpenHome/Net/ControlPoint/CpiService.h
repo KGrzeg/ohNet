@@ -14,13 +14,13 @@
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/Private/Service.h>
 #include <OpenHome/Net/Private/CpiDevice.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Fifo.h>
-#include <OpenHome/Private/Timer.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Fifo.h>
+#include <OpenHome/Timer.h>
 #include <OpenHome/Functor.h>
 #include <OpenHome/Net/Private/AsyncPrivate.h>
 #include <OpenHome/Net/Private/Error.h>
-#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Net/Private/CpiStack.h>
 
 #include <vector>

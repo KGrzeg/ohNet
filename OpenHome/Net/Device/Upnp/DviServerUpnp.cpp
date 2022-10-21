@@ -1,23 +1,23 @@
 #include <OpenHome/Net/Private/DviServerUpnp.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Private/NetworkAdapterList.h>
-#include <OpenHome/Private/Http.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Parser.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/NetworkAdapterList.h>
+#include <OpenHome/Http.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Parser.h>
 #include <OpenHome/Net/Private/Ssdp.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Env.h>
 #include <OpenHome/Net/Private/DviStack.h>
 #include <OpenHome/Net/Private/DviDevice.h>
 #include <OpenHome/Net/Private/DviProtocolUpnp.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Printer.h>
 #include <OpenHome/Net/Private/XmlParser.h>
-#include <OpenHome/Private/Converter.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Private/Debug.h>
+#include <OpenHome/Converter.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Debug.h>
 #include <OpenHome/Net/Private/Error.h>
-#include <OpenHome/OsWrapper.h>
-#include <OpenHome/Private/TIpAddressUtils.h>
+#include <Os/OsWrapper.h>
+#include <OpenHome/TIpAddressUtils.h>
 
 #include <stdlib.h>
 

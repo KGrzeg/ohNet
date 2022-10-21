@@ -1,8 +1,8 @@
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Cpp/CpOpenhomeOrgTestBasic1.h>
-#include <OpenHome/Net/Cpp/CpDevice.h>
+#include <OpenHome/Net/CpOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Net/CpDevice.h>
 #include "TestBasicCp.h"
-#include <OpenHome/Private/TestFramework.h>
+#include <OpenHome/TestFramework.h>
 
 #include <string>
 

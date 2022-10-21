@@ -5,14 +5,14 @@
 #ifndef HEADER_PROTOCOL_UPNP
 #define HEADER_PROTOCOL_UPNP
 
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/Private/CpiService.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Private/Http.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Stream.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Http.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Stream.h>
 
 namespace OpenHome {
 namespace Net {

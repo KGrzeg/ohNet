@@ -1,20 +1,20 @@
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Private/Standard.h>
-#include <OpenHome/OsWrapper.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Env.h>
+#include <OpenHome/Standard.h>
+#include <Os/OsWrapper.h>
 #include <OpenHome/Net/Private/Discovery.h>
-#include <OpenHome/Private/NetworkAdapterList.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/NetworkAdapterList.h>
+#include <OpenHome/Printer.h>
 #include <OpenHome/MimeTypes.h>
-#include <OpenHome/Private/Timer.h>
+#include <OpenHome/Timer.h>
 #include <OpenHome/Net/Private/Globals.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/Private/DnsChangeNotifier.h>
-#include <OpenHome/Private/Shell.h>
-#include <OpenHome/Private/InfoProvider.h>
-#include <OpenHome/Private/ShellCommandDebug.h>
+#include <OpenHome/Debug.h>
+#include <OpenHome/DnsChangeNotifier.h>
+#include <OpenHome/Shell/Shell.h>
+#include <OpenHome/InfoProvider.h>
+#include <OpenHome/Shell/ShellCommandDebug.h>
 #include <OpenHome/Net/Private/MdnsProvider.h>
-#include <OpenHome/Private/TIpAddressUtils.h>
+#include <OpenHome/TIpAddressUtils.h>
 
 #ifdef PLATFORM_MACOSX_GNU
 # include <sys/time.h>

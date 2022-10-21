@@ -4,15 +4,15 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/Private/CpiService.h>
-#include <OpenHome/Private/Timer.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Fifo.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Timer.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Fifo.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Standard.h>
 #include <OpenHome/Net/Private/EventUpnp.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Net/Core/CpProxy.h> // for IEventProcessor
-#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/Net/CpProxy.h> // for IEventProcessor
+#include <OpenHome/Net/OhNet.h>
 
 #include <list>
 #include <map>

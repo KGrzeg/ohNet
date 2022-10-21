@@ -1,9 +1,9 @@
 #include <OpenHome/Net/Private/Discovery.h>
 #include <OpenHome/Net/Private/Ssdp.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Private/DnsChangeNotifier.h>
+#include <OpenHome/Debug.h>
+#include <OpenHome/Env.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/DnsChangeNotifier.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

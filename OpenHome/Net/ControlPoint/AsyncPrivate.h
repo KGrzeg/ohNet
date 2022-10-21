@@ -2,9 +2,9 @@
 #define HEADER_ASYNC_PRIVATE
 
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Core/FunctorAsync.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Net/Core/CpProxy.h>
+#include <OpenHome/Net/FunctorAsync.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Net/CpProxy.h>
 
 namespace OpenHome {
 namespace Net {

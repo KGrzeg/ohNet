@@ -1,4 +1,4 @@
-#include <OpenHome/Private/Fifo.h>
+#include <OpenHome/Fifo.h>
 
 using namespace OpenHome;
 

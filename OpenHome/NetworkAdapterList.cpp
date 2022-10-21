@@ -1,12 +1,12 @@
-#include <OpenHome/Private/NetworkAdapterList.h>
+#include <OpenHome/NetworkAdapterList.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Exception.h>
-#include <OpenHome/OsWrapper.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Env.h>
+#include <Os/OsWrapper.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Env.h>
 #include <OpenHome/Exception.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/Private/TIpAddressUtils.h>
+#include <OpenHome/Debug.h>
+#include <OpenHome/TIpAddressUtils.h>
 
 #include <algorithm>
 #include <vector>

@@ -1,7 +1,7 @@
 #ifndef HEADER_OPTION_PARSER
 #define HEADER_OPTION_PARSER
 
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Exception.h>

@@ -1,4 +1,4 @@
-#include <OpenHome/Private/TestFramework.h>
+#include <OpenHome/TestFramework.h>
 
 extern void TestTimerMock();
 

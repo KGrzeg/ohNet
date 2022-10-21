@@ -1,4 +1,4 @@
-#include <OpenHome/Private/Queue.h>
+#include <OpenHome/Queue.h>
 
 using namespace OpenHome;
 

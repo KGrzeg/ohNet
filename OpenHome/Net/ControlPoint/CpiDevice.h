@@ -10,12 +10,12 @@
 
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Thread.h>
 #include <OpenHome/Net/Private/Discovery.h>
-#include <OpenHome/Private/Timer.h>
+#include <OpenHome/Timer.h>
 #include <OpenHome/Net/Private/FunctorCpiDevice.h>
 #include <OpenHome/Net/Private/Service.h>
-#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/Net/OhNet.h>
 
 #include <vector>
 #include <map>

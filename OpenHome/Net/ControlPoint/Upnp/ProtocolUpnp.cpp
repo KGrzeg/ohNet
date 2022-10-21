@@ -1,10 +1,10 @@
 #include <OpenHome/Net/Private/ProtocolUpnp.h>
-#include <OpenHome/Private/Debug.h>
+#include <OpenHome/Debug.h>
 #include <OpenHome/Net/Private/XmlParser.h>
-#include <OpenHome/Private/Parser.h>
+#include <OpenHome/Parser.h>
 #include <OpenHome/Net/Private/Error.h>
-#include <OpenHome/Private/Converter.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Converter.h>
+#include <OpenHome/Env.h>
 #include <OpenHome/Net/Private/CpiStack.h>
 #include <OpenHome/Net/Private/CpiSubscription.h>
 #include <OpenHome/Net/Private/Subscription.h>

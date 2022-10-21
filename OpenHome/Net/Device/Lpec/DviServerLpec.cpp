@@ -1,15 +1,15 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/Private/DviServerLpec.h>
-#include <OpenHome/Private/Network.h>
+#include <OpenHome/Network.h>
 #include <OpenHome/Net/Private/DviService.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Converter.h>
-#include <OpenHome/Private/Parser.h>
-#include <OpenHome/Private/Ascii.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Converter.h>
+#include <OpenHome/Parser.h>
+#include <OpenHome/Ascii.h>
 #include <OpenHome/Net/Private/DviStack.h>
-#include <OpenHome/Private/Printer.h>
-#include <OpenHome/Private/TIpAddressUtils.h>
+#include <OpenHome/Printer.h>
+#include <OpenHome/TIpAddressUtils.h>
 
 #include <limits.h>
 

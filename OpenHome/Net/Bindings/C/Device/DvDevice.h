@@ -11,7 +11,7 @@
 
 #include <OpenHome/Defines.h>
 #include <OpenHome/OsTypes.h>
-#include <OpenHome/Net/C/OhNet.h>
+#include <OpenHome/Net/Bindings/C/OhNet.h>
 
 #ifdef __cplusplus
 extern "C" {

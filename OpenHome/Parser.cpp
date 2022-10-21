@@ -1,5 +1,5 @@
-#include <OpenHome/Private/Parser.h>
-#include <OpenHome/Private/Ascii.h>
+#include <OpenHome/Parser.h>
+#include <OpenHome/Ascii.h>
 
 using namespace OpenHome;
 

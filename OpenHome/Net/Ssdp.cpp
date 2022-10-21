@@ -1,9 +1,9 @@
 #include <OpenHome/Net/Private/Ssdp.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Parser.h>
-#include <OpenHome/Private/Printer.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/OsWrapper.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Parser.h>
+#include <OpenHome/Printer.h>
+#include <OpenHome/Env.h>
+#include <Os/OsWrapper.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

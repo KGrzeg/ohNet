@@ -1,5 +1,5 @@
-#include <OpenHome/Private/Printer.h>
-#include <OpenHome/Private/Terminal.h>
+#include <OpenHome/Printer.h>
+#include <OpenHome/Terminal.h>
 
 #include <conio.h>
 

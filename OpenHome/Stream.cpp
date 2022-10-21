@@ -1,7 +1,7 @@
-#include <OpenHome/Private/Stream.h>
+#include <OpenHome/Stream.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Ascii.h>
+#include <OpenHome/Ascii.h>
 
 #include <string.h>
 #include <algorithm>

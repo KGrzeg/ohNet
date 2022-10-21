@@ -1,7 +1,7 @@
-#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Net/Private/CpiStack.h>
 #include <OpenHome/Net/Private/Globals.h>
-#include <OpenHome/Private/NetworkAdapterList.h>
+#include <OpenHome/NetworkAdapterList.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

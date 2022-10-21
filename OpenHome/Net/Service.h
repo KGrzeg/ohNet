@@ -11,8 +11,8 @@
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Exception.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Private/Ascii.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Ascii.h>
 
 #include <stdint.h>
 #include <vector>

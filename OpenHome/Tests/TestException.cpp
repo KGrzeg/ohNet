@@ -1,5 +1,5 @@
-#include <OpenHome/Private/Standard.h>
-#include <OpenHome/Private/TestFramework.h>
+#include <OpenHome/Standard.h>
+#include <OpenHome/TestFramework.h>
 
 #include <vector>
 

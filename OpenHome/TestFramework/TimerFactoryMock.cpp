@@ -1,7 +1,7 @@
 #include <OpenHome/OhNetTypes.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/Private/TimerFactoryMock.h>
+#include <OpenHome/Debug.h>
+#include <OpenHome/TimerFactoryMock.h>
 
 #include <map>
 #include <list>

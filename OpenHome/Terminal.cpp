@@ -1,4 +1,4 @@
-#include <OpenHome/Private/Terminal.h>
+#include <OpenHome/Terminal.h>
 #include <cstdarg>
 
 namespace OpenHome {

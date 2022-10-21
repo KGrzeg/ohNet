@@ -1,5 +1,5 @@
 #include <OpenHome/Net/Private/Globals.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Env.h>
 #include <OpenHome/Net/Private/CpiStack.h>
 #include <OpenHome/Net/Private/DviStack.h>
 

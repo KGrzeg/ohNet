@@ -1,8 +1,8 @@
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Parser.h>
-#include <OpenHome/Private/Uri.h>
-#include <OpenHome/Private/Converter.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Parser.h>
+#include <OpenHome/Uri.h>
+#include <OpenHome/Converter.h>
 #include <OpenHome/Os.h>
 
 #include <limits>

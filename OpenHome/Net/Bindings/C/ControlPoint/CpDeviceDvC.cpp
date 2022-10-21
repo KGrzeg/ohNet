@@ -1,6 +1,6 @@
-#include <OpenHome/Net/C/CpDeviceDv.h>
+#include <OpenHome/Net/Bindings/C/CpDeviceDv.h>
 #include "../Device/DviDeviceC.h"
-#include <OpenHome/Net/Core/DvDevice.h>
+#include <OpenHome/Net/DvDevice.h>
 #include <OpenHome/Net/Private/CpiDeviceDv.h>
 #include <OpenHome/Net/Private/Globals.h>
 

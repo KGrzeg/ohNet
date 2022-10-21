@@ -1,11 +1,11 @@
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Converter.h>
-#include <OpenHome/Private/Parser.h>
-#include <OpenHome/Private/Http.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/Private/Timer.h>
-#include <OpenHome/Private/Uri.h>
-#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Converter.h>
+#include <OpenHome/Parser.h>
+#include <OpenHome/Http.h>
+#include <OpenHome/Debug.h>
+#include <OpenHome/Timer.h>
+#include <OpenHome/Uri.h>
+#include <OpenHome/Net/OhNet.h>
 
 #include <ctype.h>
 #include <algorithm>

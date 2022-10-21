@@ -1,8 +1,8 @@
 #ifndef HEADER_SHELL_COMMAND_RUN
 #define HEADER_SHELL_COMMAND_RUN
 
-#include <OpenHome/Private/Shell.h>
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Shell/Shell.h>
+#include <OpenHome/Standard.h>
 
 #include <vector>
 #include <map>

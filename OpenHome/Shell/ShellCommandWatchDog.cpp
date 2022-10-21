@@ -1,7 +1,7 @@
-#include <OpenHome/Private/ShellCommandWatchDog.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/Private/Ascii.h>
+#include <OpenHome/Shell/ShellCommandWatchDog.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Debug.h>
+#include <OpenHome/Ascii.h>
 
 using namespace OpenHome;
 

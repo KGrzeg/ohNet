@@ -2,13 +2,13 @@
 #define HEADER_NETWORKINTERFACELIST
 
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Functor.h>
 #include <OpenHome/FunctorNetworkAdapter.h>
 #include <OpenHome/Optional.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Env.h>
 
 #include <vector>
 #include <map>

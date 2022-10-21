@@ -4,12 +4,12 @@
 #ifndef HEADER_OS_WRAPPER
 #define HEADER_OS_WRAPPER
 
-#include <OpenHome/Os.h>
+#include <Os/Os.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Private/Standard.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/Env.h>
+#include <OpenHome/Standard.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Net/OhNet.h>
 
 #include <vector>
 
@@ -77,7 +77,7 @@ public:
     inline static void NetworkSetDnsChangedObserver(OsContext* aContext, DnsChanged aCallback, void* aArg);
 };
 
-#include <OpenHome/OsWrapper.inl>
+#include <Os/OsWrapper.inl>
 
 } // namespace OpenHome
 

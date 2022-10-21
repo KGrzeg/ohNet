@@ -1,7 +1,7 @@
-#include <OpenHome/Net/C/DvDevice.h>
-#include <OpenHome/Net/Core/DvDevice.h>
+#include <OpenHome/Net/Bindings/C/DvDevice.h>
+#include <OpenHome/Net/DvDevice.h>
 #include "DviDeviceC.h"
-#include <OpenHome/Private/Stream.h>
+#include <OpenHome/Stream.h>
 #include <OpenHome/Net/Private/Globals.h>
 #include <OpenHome/Os.h>
 

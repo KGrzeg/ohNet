@@ -1,10 +1,10 @@
 #include <OpenHome/Net/Private/Service.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Ascii.h>
+#include <OpenHome/Ascii.h>
 #include <OpenHome/Net/Private/Ssdp.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Env.h>
+#include <OpenHome/Thread.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

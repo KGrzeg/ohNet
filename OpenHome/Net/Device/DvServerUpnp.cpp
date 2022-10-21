@@ -1,5 +1,5 @@
-#include <OpenHome/Net/Core/DvServerUpnp.h>
-#include <OpenHome/Net/Core/DvDevice.h>
+#include <OpenHome/Net/DvServerUpnp.h>
+#include <OpenHome/Net/DvDevice.h>
 #include <OpenHome/Net/Private/DviDevice.h>
 #include <OpenHome/Net/Private/DviServerUpnp.h>
 

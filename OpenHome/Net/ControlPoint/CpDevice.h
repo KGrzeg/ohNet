@@ -3,7 +3,7 @@
 
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/Core/FunctorCpDevice.h>
+#include <OpenHome/Net/FunctorCpDevice.h>
 
 #include <map>
 

@@ -1,10 +1,10 @@
 #include "TestBasicCp.h"
-#include <OpenHome/Net/C/OhNet.h>
+#include <OpenHome/Net/Bindings/C/OhNet.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Net/C/CpProxy.h>
-#include <OpenHome/Net/C/CpOpenhomeOrgTestBasic1.h>
-#include <OpenHome/Net/C/CpDevice.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/Net/Bindings/C/CpProxy.h>
+#include <OpenHome/Net/Bindings/C/CpOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Net/Bindings/C/CpDevice.h>
 
 #include <stdlib.h>
 #include <string.h>

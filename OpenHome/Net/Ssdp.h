@@ -1,11 +1,11 @@
 #ifndef HEADER_SSDP_BASE
 #define HEADER_SSDP_BASE
 
-#include <OpenHome/Private/Http.h>
+#include <OpenHome/Http.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Network.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Network.h>
 
 namespace OpenHome {
 

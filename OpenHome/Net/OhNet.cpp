@@ -1,13 +1,13 @@
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Private/Standard.h>
-#include <OpenHome/Private/Printer.h>
-#include <OpenHome/Private/NetworkAdapterList.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/Private/Network.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Env.h>
+#include <OpenHome/Standard.h>
+#include <OpenHome/Printer.h>
+#include <OpenHome/NetworkAdapterList.h>
+#include <OpenHome/Debug.h>
+#include <OpenHome/Network.h>
 #include <OpenHome/Net/Private/Globals.h>
-#include <OpenHome/OsWrapper.h>
-#include <OpenHome/Private/TIpAddressUtils.h>
+#include <Os/OsWrapper.h>
+#include <OpenHome/TIpAddressUtils.h>
 
 #include <string.h>
 

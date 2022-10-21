@@ -3,7 +3,7 @@
 
 #include <OpenHome/Types.h>
 #include <OpenHome/Exception.h>
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 #include <cstdarg>
 
 EXCEPTION(BufferFull)

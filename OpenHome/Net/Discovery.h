@@ -3,10 +3,10 @@
 
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Thread.h>
 #include <OpenHome/Net/Private/Ssdp.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Network.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Network.h>
 
 #include <vector>
 

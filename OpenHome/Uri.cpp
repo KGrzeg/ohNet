@@ -1,7 +1,7 @@
-#include <OpenHome/Private/Uri.h>
-#include <OpenHome/Private/Parser.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Uri.h>
+#include <OpenHome/Parser.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Printer.h>
 
 using namespace OpenHome;
 

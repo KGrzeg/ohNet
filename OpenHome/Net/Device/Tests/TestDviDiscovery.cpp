@@ -1,14 +1,14 @@
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/OptionParser.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/OptionParser.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Net/Private/Discovery.h>
 #include <OpenHome/Net/Private/DviDevice.h>
 #include <OpenHome/Net/Private/DviService.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Env.h>
 #include <OpenHome/Net/Private/DviStack.h>
-#include <OpenHome/Private/NetworkAdapterList.h>
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/NetworkAdapterList.h>
+#include <OpenHome/Standard.h>
 
 #include <stdlib.h>
 #include <vector>

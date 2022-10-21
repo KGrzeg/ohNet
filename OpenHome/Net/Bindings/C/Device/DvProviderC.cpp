@@ -1,10 +1,10 @@
-#include <OpenHome/Net/C/DvProvider.h>
-#include <OpenHome/Net/Core/DvProvider.h>
+#include <OpenHome/Net/Bindings/C/DvProvider.h>
+#include <OpenHome/Net/DvProvider.h>
 #include <OpenHome/Net/Private/DviService.h>
 #include "DviDeviceC.h"
-#include <OpenHome/Net/Core/DvDevice.h>
+#include <OpenHome/Net/DvDevice.h>
 #include <OpenHome/Net/Private/FunctorDviInvocation.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Printer.h>
 #include <OpenHome/Os.h>
 
 #include <string.h>

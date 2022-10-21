@@ -1,9 +1,9 @@
 #include "CpOpenhomeOrgTestBasic1.h"
-#include <OpenHome/Net/Core/CpProxy.h>
+#include <OpenHome/Net/CpProxy.h>
 #include <OpenHome/Net/Private/CpiService.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Thread.h>
 #include <OpenHome/Net/Private/AsyncPrivate.h>
-#include <OpenHome/Net/Core/CpDevice.h>
+#include <OpenHome/Net/CpDevice.h>
 #include <OpenHome/Net/Private/Error.h>
 #include <OpenHome/Net/Private/CpiDevice.h>
 

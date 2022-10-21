@@ -1,12 +1,12 @@
-#include <OpenHome/Private/Standard.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/OptionParser.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/OsWrapper.h>
-#include <OpenHome/Private/Arch.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Standard.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/OptionParser.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Debug.h>
+#include <Os/OsWrapper.h>
+#include <OpenHome/Arch.h>
+#include <OpenHome/Env.h>
 #include <OpenHome/Net/Private/Globals.h>
 
 using namespace OpenHome;

@@ -1,7 +1,7 @@
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Standard.h>
-#include <OpenHome/Private/Arch.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Standard.h>
+#include <OpenHome/Arch.h>
+#include <OpenHome/Printer.h>
 
 #include <string.h>
 #include <stdarg.h>

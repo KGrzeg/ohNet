@@ -3,14 +3,14 @@
 
 #include <OpenHome/Net/Private/DviServer.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Network.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Network.h>
 #include <OpenHome/Net/Private/Service.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Http.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Http.h>
 #include <OpenHome/Exception.h>
-#include <OpenHome/Private/Fifo.h>
+#include <OpenHome/Fifo.h>
 #include <OpenHome/Net/Private/DviSubscription.h>
 
 #include <map>

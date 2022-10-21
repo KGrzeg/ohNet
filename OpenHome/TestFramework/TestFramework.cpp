@@ -1,16 +1,16 @@
-#include <OpenHome/Private/TestFramework.h>
+#include <OpenHome/TestFramework.h>
 #include <assert.h>
 #include <stdarg.h>
 #include <stdio.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Printer.h>
-#include <OpenHome/OsWrapper.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Private/Debug.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Printer.h>
+#include <Os/OsWrapper.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Debug.h>
 #include <OpenHome/Net/Private/Globals.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/NetworkAdapterList.h>
+#include <OpenHome/Env.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/NetworkAdapterList.h>
 
 #include <time.h>
 #include <stdlib.h>

@@ -1,14 +1,14 @@
 #include <OpenHome/Net/Private/DviSsdpNotifier.h>
 #include <OpenHome/Net/Private/DviProtocolUpnp.h>
-#include <OpenHome/Private/Network.h>
+#include <OpenHome/Network.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Env.h>
 #include <OpenHome/Net/Private/DviStack.h>
 #include <OpenHome/Net/Private/Ssdp.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/Private/Printer.h>
-#include <OpenHome/OsWrapper.h>
+#include <OpenHome/Debug.h>
+#include <OpenHome/Printer.h>
+#include <Os/OsWrapper.h>
 
 #include <climits>
 

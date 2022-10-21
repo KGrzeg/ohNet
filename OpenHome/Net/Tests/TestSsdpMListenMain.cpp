@@ -1,6 +1,6 @@
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/OptionParser.h>
-#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/OptionParser.h>
+#include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Buffer.h>
 
 #include <vector>

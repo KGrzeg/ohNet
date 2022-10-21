@@ -2,8 +2,8 @@
 #define HEADER_TERMINAL
 
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Private/Fifo.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Fifo.h>
 #include <OpenHome/Exception.h>
 #include <cstdarg>
 

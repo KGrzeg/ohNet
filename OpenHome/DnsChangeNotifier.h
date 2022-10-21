@@ -3,7 +3,7 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Thread.h>
 
 #include <utility>
 #include <vector>

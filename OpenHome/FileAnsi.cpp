@@ -1,4 +1,4 @@
-#include <OpenHome/Private/File.h>
+#include <OpenHome/File.h>
 #include <cstdio>
 #include <cerrno>
 

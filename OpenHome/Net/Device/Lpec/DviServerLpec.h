@@ -4,12 +4,12 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Exception.h>
-#include <OpenHome/Private/Network.h>
+#include <OpenHome/Network.h>
 #include <OpenHome/Net/Private/DviService.h>
 #include <OpenHome/Net/Private/DviServer.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Parser.h>
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Parser.h>
+#include <OpenHome/Standard.h>
 
 #include <vector>
 #include <map>

@@ -1,7 +1,7 @@
-#include <OpenHome/Net/Core/CpDevice.h>
+#include <OpenHome/Net/CpDevice.h>
 #include <OpenHome/Net/Private/CpiDevice.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Printer.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

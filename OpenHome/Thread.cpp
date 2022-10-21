@@ -1,9 +1,9 @@
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/OsWrapper.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Debug.h>
+#include <Os/OsWrapper.h>
 #include <exception>
 #include <OpenHome/Net/Private/Globals.h> // FIXME - use of globals should be discouraged
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Env.h>
 
 #include <algorithm>
 

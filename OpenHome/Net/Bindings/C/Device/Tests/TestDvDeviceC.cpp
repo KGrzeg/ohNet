@@ -3,17 +3,17 @@
    ...but C versions of all APIs being tested are used
 */
 
-#include <OpenHome/Net/C/OhNet.h>
+#include <OpenHome/Net/Bindings/C/OhNet.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Net/C/CpStack.h>
-#include <OpenHome/Net/C/DvStack.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/Net/Bindings/C/CpStack.h>
+#include <OpenHome/Net/Bindings/C/DvStack.h>
 #include <OpenHome/Net/Private/DviDevice.h>
-#include <OpenHome/Net/C/DvOpenhomeOrgTestBasic1.h>
-#include <OpenHome/Net/C/CpOpenhomeOrgTestBasic1.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Private/Debug.h>
+#include <OpenHome/Net/Bindings/C/DvOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Net/Bindings/C/CpOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Env.h>
+#include <OpenHome/Debug.h>
 #include "TestBasicDv.h"
 #include "../../ControlPoint/Tests/TestBasicCp.h"
 

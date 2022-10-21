@@ -1,9 +1,9 @@
 #ifndef HEADER_EVENT_UPNP
 #define HEADER_EVENT_UPNP
 
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Http.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Http.h>
 #include <OpenHome/Net/Private/ProtocolUpnp.h>
 #include <OpenHome/Net/Private/Subscription.h>
 

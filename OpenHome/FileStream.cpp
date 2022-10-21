@@ -1,7 +1,7 @@
-#include <OpenHome/Private/File.h>
+#include <OpenHome/File.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Stream.h>
+#include <OpenHome/Stream.h>
 using namespace OpenHome;
 
 FileStream::FileStream()

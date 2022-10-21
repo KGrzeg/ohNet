@@ -4,7 +4,7 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/Private/DviDevice.h>
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 
 namespace OpenHome {
 namespace Net {

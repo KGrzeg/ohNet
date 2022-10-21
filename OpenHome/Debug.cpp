@@ -1,7 +1,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Debug.h>
+#include <OpenHome/Debug.h>
 
 using namespace OpenHome;
 

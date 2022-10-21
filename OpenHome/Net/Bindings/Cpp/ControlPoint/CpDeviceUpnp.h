@@ -2,8 +2,8 @@
 #define HEADER_CPDEVICECPPUPNP
 
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Cpp/CpDevice.h>
-#include <OpenHome/Net/Cpp/FunctorCpDevice.h>
+#include <OpenHome/Net/CpDevice.h>
+#include <OpenHome/Net/FunctorCpDevice.h>
 
 #include <string>
 

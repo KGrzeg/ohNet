@@ -1,6 +1,6 @@
-#include <OpenHome/Net/C/OhNet.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Private/Network.h>
+#include <OpenHome/Net/Bindings/C/OhNet.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Network.h>
 #include <OpenHome/Net/Private/Globals.h>
 #include <OpenHome/Net/Private/DviStack.h>
 

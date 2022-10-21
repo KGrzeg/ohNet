@@ -1,6 +1,6 @@
 #include "DvOpenhomeOrgTestBasic1.h"
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Core/DvInvocationResponse.h>
+#include <OpenHome/Net/DvInvocationResponse.h>
 #include <OpenHome/Net/Private/Service.h>
 #include <OpenHome/Net/Private/FunctorDviInvocation.h>
 #include <OpenHome/Net/Private/DviStack.h>

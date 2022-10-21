@@ -3,7 +3,7 @@
 
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/Core/FunctorAsync.h>
+#include <OpenHome/Net/FunctorAsync.h>
 
 namespace OpenHome {
 namespace Net {

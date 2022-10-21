@@ -1,12 +1,12 @@
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Private/Arch.h>
-#include <OpenHome/OsWrapper.h>
-#include <OpenHome/Private/Debug.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Arch.h>
+#include <Os/OsWrapper.h>
+#include <OpenHome/Debug.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/TIpAddressUtils.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Env.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/TIpAddressUtils.h>
 
 #include <errno.h>
 

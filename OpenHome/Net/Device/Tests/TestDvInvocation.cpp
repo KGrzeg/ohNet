@@ -1,15 +1,15 @@
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/OptionParser.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/OptionParser.h>
 #include "TestBasicDv.h"
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Core/DvDevice.h>
-#include <OpenHome/Net/Core/DvOpenhomeOrgTestBasic1.h>
-#include <OpenHome/Net/Core/CpOpenhomeOrgTestBasic1.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Net/Core/CpDevice.h>
-#include <OpenHome/Net/Core/CpDeviceUpnp.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Net/DvDevice.h>
+#include <OpenHome/Net/DvOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Net/CpOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Net/CpDevice.h>
+#include <OpenHome/Net/CpDeviceUpnp.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Env.h>
 #include <OpenHome/Net/Private/DviStack.h>
 
 #include <vector>

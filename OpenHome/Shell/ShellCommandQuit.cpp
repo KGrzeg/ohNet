@@ -1,6 +1,6 @@
-#include <OpenHome/Private/ShellCommandQuit.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Debug.h>
+#include <OpenHome/Shell/ShellCommandQuit.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Debug.h>
 
 using namespace OpenHome;
 

@@ -2,8 +2,8 @@
 #define HEADER_CPDEVICEDVC
 
 #include <OpenHome/Defines.h>
-#include <OpenHome/Net/C/CpDevice.h>
-#include <OpenHome/Net/C/DvDevice.h>
+#include <OpenHome/Net/Bindings/C/CpDevice.h>
+#include <OpenHome/Net/Bindings/C/DvDevice.h>
 
 #ifdef __cplusplus
 extern "C" {

@@ -9,12 +9,12 @@
 #include <OpenHome/Exception.h>
 #include <OpenHome/FunctorMsg.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Net/Core/FunctorAsync.h>
-#include <OpenHome/Net/Core/CpProxy.h>
-#include <OpenHome/Net/Core/CpDevice.h>
-#include <OpenHome/Net/Core/CpDeviceDv.h>
-#include <OpenHome/Net/Core/CpDeviceUpnp.h>
-#include <OpenHome/Net/Core/FunctorCpDevice.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Net/FunctorAsync.h>
+#include <OpenHome/Net/CpProxy.h>
+#include <OpenHome/Net/CpDevice.h>
+#include <OpenHome/Net/CpDeviceDv.h>
+#include <OpenHome/Net/CpDeviceUpnp.h>
+#include <OpenHome/Net/FunctorCpDevice.h>
 
 #endif // HEADER_OHNET_CONTROLPOINT_CORE

@@ -1,13 +1,13 @@
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/OptionParser.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/OptionParser.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/OsWrapper.h>
-#include <OpenHome/Net/Core/CpDeviceUpnp.h>
-#include <OpenHome/Net/Core/FunctorCpDevice.h>
-#include <OpenHome/Net/Core/CpAvOpenhomeOrgProduct1.h>
-#include <OpenHome/Net/Core/CpAvOpenhomeOrgSender1.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Debug.h>
+#include <Os/OsWrapper.h>
+#include <OpenHome/Net/CpDeviceUpnp.h>
+#include <OpenHome/Net/FunctorCpDevice.h>
+#include <OpenHome/Net/CpAvOpenhomeOrgProduct1.h>
+#include <OpenHome/Net/CpAvOpenhomeOrgSender1.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

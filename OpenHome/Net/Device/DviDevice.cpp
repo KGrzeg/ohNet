@@ -2,8 +2,8 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Exception.h>
-#include <OpenHome/Private/Parser.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Parser.h>
+#include <OpenHome/Printer.h>
 #include <OpenHome/Net/Private/DviStack.h>
 #include <OpenHome/Net/Private/DviProviderSubscriptionLongPoll.h>
 #include <OpenHome/Net/Private/DviProtocolUpnp.h> // for DviProtocolUpnp ctor only

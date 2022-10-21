@@ -1,8 +1,8 @@
-#include <OpenHome/Private/Shell.h>
-#include <OpenHome/Private/Standard.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Parser.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Shell/Shell.h>
+#include <OpenHome/Standard.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Parser.h>
+#include <OpenHome/Printer.h>
 
 using namespace OpenHome;
 

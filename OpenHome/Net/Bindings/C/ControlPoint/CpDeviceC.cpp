@@ -1,4 +1,4 @@
-#include <OpenHome/Net/C/CpDevice.h>
+#include <OpenHome/Net/Bindings/C/CpDevice.h>
 #include <OpenHome/Net/Private/CpiDevice.h>
 
 #include <stdlib.h>

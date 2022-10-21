@@ -1,11 +1,11 @@
-#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/Shell.h>
-#include <OpenHome/Private/ShellCommandRun.h>
-#include <OpenHome/Private/ShellCommandDebug.h>
-#include <OpenHome/Private/ShellCommandQuit.h>
-#include <OpenHome/Private/ShellCommandWatchDog.h>
-#include <OpenHome/Private/TestFramework.h>
+#include <OpenHome/Shell/Shell.h>
+#include <OpenHome/Shell/ShellCommandRun.h>
+#include <OpenHome/Shell/ShellCommandDebug.h>
+#include <OpenHome/Shell/ShellCommandQuit.h>
+#include <OpenHome/Shell/ShellCommandWatchDog.h>
+#include <OpenHome/TestFramework.h>
 #include <OpenHome/Net/Private/CpiStack.h>
 #include <OpenHome/Net/Private/DviStack.h>
 

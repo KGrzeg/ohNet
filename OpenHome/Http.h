@@ -1,13 +1,13 @@
 #ifndef HEADER_HTTP_HTTP
 #define HEADER_HTTP_HTTP
 
-#include <OpenHome/Private/Standard.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Uri.h>
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Uri.h>
+#include <OpenHome/Standard.h>
 
 #include <vector>
 

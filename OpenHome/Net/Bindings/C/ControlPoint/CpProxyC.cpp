@@ -1,10 +1,10 @@
-#include <OpenHome/Net/C/CpProxy.h>
-#include <OpenHome/Net/C/OhNet.h>
-#include <OpenHome/Net/Core/CpProxy.h>
+#include <OpenHome/Net/Bindings/C/CpProxy.h>
+#include <OpenHome/Net/Bindings/C/OhNet.h>
+#include <OpenHome/Net/CpProxy.h>
 #include "CpProxyCPrivate.h"
 #include <OpenHome/Net/Private/CpiDevice.h>
-#include <OpenHome/Net/C/CpDevice.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Net/Bindings/C/CpDevice.h>
+#include <OpenHome/Printer.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

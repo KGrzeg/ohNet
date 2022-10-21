@@ -1,14 +1,14 @@
 #include "DvOpenhomeOrgTestBasic1.h"
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/C/DviDeviceC.h>
-#include <OpenHome/Net/Core/DvProvider.h>
-#include <OpenHome/Net/C/OhNet.h>
-#include <OpenHome/Net/Core/DvInvocationResponse.h>
+#include <OpenHome/Net/Bindings/C/DviDeviceC.h>
+#include <OpenHome/Net/DvProvider.h>
+#include <OpenHome/Net/Bindings/C/OhNet.h>
+#include <OpenHome/Net/DvInvocationResponse.h>
 #include <OpenHome/Net/Private/Service.h>
 #include <OpenHome/Net/Private/FunctorDviInvocation.h>
-#include <OpenHome/Net/C/DvInvocation.h>
-#include <OpenHome/Net/C/DvInvocationPrivate.h>
+#include <OpenHome/Net/Bindings/C/DvInvocation.h>
+#include <OpenHome/Net/Bindings/C/DvInvocationPrivate.h>
 #include <OpenHome/Net/Private/DviStack.h>
 
 using namespace OpenHome;

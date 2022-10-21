@@ -4,11 +4,11 @@
  */
 
 #include <OpenHome/Net/Private/Ssdp.h>
-#include <OpenHome/Private/Http.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Stream.h>
+#include <OpenHome/Http.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Stream.h>
 #include <OpenHome/Net/Private/DviStack.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Env.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

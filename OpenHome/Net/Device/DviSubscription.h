@@ -4,13 +4,13 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Exception.h>
-#include <OpenHome/Private/Network.h>
+#include <OpenHome/Network.h>
 #include <OpenHome/Net/Private/Service.h>
-#include <OpenHome/Private/Timer.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Fifo.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Private/InfoProvider.h>
+#include <OpenHome/Timer.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Fifo.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/InfoProvider.h>
 
 #include <vector>
 #include <map>

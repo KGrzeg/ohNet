@@ -1,12 +1,12 @@
 #ifndef HEADER_MDNSPLATFORM
 #define HEADER_MDNSPLATFORM
 
-#include <OpenHome/Private/Standard.h>
-#include <OpenHome/Private/Fifo.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Timer.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/Standard.h>
+#include <OpenHome/Fifo.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Timer.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Net/Private/FunctorCpiDevice.h>
 
 // Bonjour source code available from  http://developer.apple.com/networking/bonjour/index.html

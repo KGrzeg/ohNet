@@ -1,9 +1,9 @@
 #pragma once
 
 #include <OpenHome/Functor.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Timer.h>
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Timer.h>
+#include <OpenHome/Standard.h>
 
 #include <map>
 #include <limits.h>

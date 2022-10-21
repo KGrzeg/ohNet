@@ -1,9 +1,9 @@
 #ifndef HEADER_QUEUE
 #define HEADER_QUEUE
 
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 #include <OpenHome/Exception.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Thread.h>
 
 EXCEPTION(QueueEmpty)
 

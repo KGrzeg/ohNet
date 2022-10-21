@@ -1,6 +1,6 @@
-#include <OpenHome/Private/ShellCommandDebug.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Debug.h>
+#include <OpenHome/Shell/ShellCommandDebug.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Debug.h>
 #include <stdexcept>      // std::out_of_range
 
 using namespace OpenHome;

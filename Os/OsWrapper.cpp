@@ -1,10 +1,10 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Exception.h>
-#include <OpenHome/OsWrapper.h>
-#include <OpenHome/Os.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/Private/Env.h>
+#include <Os/OsWrapper.h>
+#include <Os/Os.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Debug.h>
+#include <OpenHome/Env.h>
 
 using namespace OpenHome;
 

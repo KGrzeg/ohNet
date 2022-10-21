@@ -1,7 +1,7 @@
 #ifndef HEADER_TESTBASICDVC
 #define HEADER_TESTBASICDVC
 
-#include <OpenHome/Net/C/DvDevice.h>
+#include <OpenHome/Net/Bindings/C/DvDevice.h>
 
 namespace OpenHome {
 namespace Net {

@@ -1,11 +1,11 @@
 #include <OpenHome/Exception.h>
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/OsWrapper.h>
+#include <OpenHome/Env.h>
+#include <OpenHome/Net/OhNet.h>
+#include <Os/OsWrapper.h>
 #include <OpenHome/Net/Private/Globals.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Printer.h>
 
 #include <stdio.h>
 

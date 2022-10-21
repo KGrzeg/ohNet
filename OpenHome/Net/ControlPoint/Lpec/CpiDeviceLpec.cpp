@@ -4,16 +4,16 @@
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Functor.h>
 #include <OpenHome/Net/Private/CpiService.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Private/Standard.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Standard.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Thread.h>
 #include <OpenHome/Net/Private/DviServerLpec.h> // for Lpec class of constants only
 #include <OpenHome/Exception.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Parser.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/Private/Converter.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Parser.h>
+#include <OpenHome/Debug.h>
+#include <OpenHome/Converter.h>
 #include <OpenHome/Net/Private/CpiStack.h>
 #include <OpenHome/Net/Private/CpiSubscription.h>
 

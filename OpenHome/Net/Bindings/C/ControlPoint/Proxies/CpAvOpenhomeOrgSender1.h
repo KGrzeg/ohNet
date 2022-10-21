@@ -6,9 +6,9 @@
 
 #include <OpenHome/OsTypes.h>
 #include <OpenHome/Defines.h>
-#include <OpenHome/Net/C/Async.h>
-#include <OpenHome/Net/C/OhNet.h>
-#include <OpenHome/Net/C/CpDevice.h>
+#include <OpenHome/Net/Bindings/C/ControlPoint/Async.h>
+#include <OpenHome/Net/Bindings/C/OhNet.h>
+#include <OpenHome/Net/Bindings/C/CpDevice.h>
 
 #ifdef __cplusplus
 extern "C" {

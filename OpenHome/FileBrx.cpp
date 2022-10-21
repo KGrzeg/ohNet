@@ -1,4 +1,4 @@
-#include <OpenHome/Private/File.h>
+#include <OpenHome/File.h>
 
 using namespace OpenHome;
 

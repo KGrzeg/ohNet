@@ -1,5 +1,5 @@
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/TimerFactoryMock.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/TimerFactoryMock.h>
 #include <vector>
 #include <memory>
 

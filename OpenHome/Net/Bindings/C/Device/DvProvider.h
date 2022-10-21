@@ -3,8 +3,8 @@
 
 #include <OpenHome/Defines.h>
 #include <OpenHome/OsTypes.h>
-#include <OpenHome/Net/C/DvDevice.h>
-#include <OpenHome/Net/C/Service.h>
+#include <OpenHome/Net/Bindings/C/DvDevice.h>
+#include <OpenHome/Net/Bindings/C/Service.h>
 
 #ifdef __cplusplus
 extern "C" {

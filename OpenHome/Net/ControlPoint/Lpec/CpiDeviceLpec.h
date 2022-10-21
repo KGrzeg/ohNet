@@ -6,10 +6,10 @@
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Functor.h>
 #include <OpenHome/Net/Private/CpiService.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Private/Standard.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Standard.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Thread.h>
 
 #include <limits.h>
 

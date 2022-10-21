@@ -1,8 +1,8 @@
 #ifndef HEADER_FIFO
 #define HEADER_FIFO
 
-#include <OpenHome/Private/Standard.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Standard.h>
+#include <OpenHome/Thread.h>
 #include <OpenHome/Exception.h>
 
 EXCEPTION(FifoReadError)

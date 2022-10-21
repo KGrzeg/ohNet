@@ -1,5 +1,5 @@
-#include <OpenHome/Private/ShellCommandRun.h>
-#include <OpenHome/Private/TestFramework.h>
+#include <OpenHome/Shell/ShellCommandRun.h>
+#include <OpenHome/TestFramework.h>
 #include <OpenHome/Net/Private/CpiStack.h>
 
 using namespace OpenHome;

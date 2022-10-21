@@ -3,8 +3,8 @@
 
 #include <OpenHome/Defines.h>
 #include <OpenHome/OsTypes.h>
-#include <OpenHome/Private/Standard.h>
-#include <OpenHome/Net/C/DvInvocation.h>
+#include <OpenHome/Standard.h>
+#include <OpenHome/Net/Bindings/C/DvInvocation.h>
 
 namespace OpenHome {
 namespace Net {

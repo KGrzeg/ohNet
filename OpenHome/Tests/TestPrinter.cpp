@@ -1,10 +1,10 @@
 #include <memory>
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/Arch.h>
-#include <OpenHome/Private/Printer.h>
-#include <OpenHome/Private/Ascii.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/Arch.h>
+#include <OpenHome/Printer.h>
+#include <OpenHome/Ascii.h>
 #include <OpenHome/FunctorMsg.h>
 
 using namespace OpenHome;

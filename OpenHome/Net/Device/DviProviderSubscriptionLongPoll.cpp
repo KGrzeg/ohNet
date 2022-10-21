@@ -4,8 +4,8 @@
 #include <OpenHome/Net/Private/DviDevice.h>
 #include <OpenHome/Net/Private/DviService.h>
 #include <OpenHome/Net/Private/DviSubscription.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Env.h>
+#include <OpenHome/Thread.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

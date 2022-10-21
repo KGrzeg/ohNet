@@ -1,12 +1,12 @@
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Net/Core/CpStack.h>
-#include <OpenHome/Net/Core/DvStack.h>
-#include <OpenHome/Net/Core/DvOpenhomeOrgTestBasic1.h>
-#include <OpenHome/Net/Core/CpOpenhomeOrgTestBasic1.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/Net/CpStack.h>
+#include <OpenHome/Net/DvStack.h>
+#include <OpenHome/Net/DvOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Net/CpOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Env.h>
 #include <OpenHome/Net/Private/DviStack.h>
-#include <OpenHome/Private/NetworkAdapterList.h>
+#include <OpenHome/NetworkAdapterList.h>
 
 #include <vector>
 

@@ -1,7 +1,7 @@
 #ifndef HEADER_CPDEVICEDVCPP
 #define HEADER_CPDEVICEDVCPP
 
-#include <OpenHome/Net/Cpp/CpDevice.h>
+#include <OpenHome/Net/CpDevice.h>
 
 namespace OpenHome {
 namespace Net {

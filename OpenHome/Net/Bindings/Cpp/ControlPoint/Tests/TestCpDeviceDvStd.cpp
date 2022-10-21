@@ -1,8 +1,8 @@
-#include <OpenHome/Private/TestFramework.h>
+#include <OpenHome/TestFramework.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Cpp/DvDevice.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Net/Cpp/CpDeviceDv.h>
+#include <OpenHome/Net/DvDevice.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Net/CpDeviceDv.h>
 #include "../../Device/Tests/TestBasicDv.h"
 #include "TestBasicCp.h"
 #include <OpenHome/Net/Private/Globals.h>

@@ -1,7 +1,7 @@
 #ifndef HEADER_DviDeviceC
 #define HEADER_DviDeviceC
 
-#include <OpenHome/Net/Core/DvDevice.h>
+#include <OpenHome/Net/DvDevice.h>
 
 namespace OpenHome {
 namespace Net {

@@ -3,11 +3,11 @@
 
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Thread.h>
 #include <OpenHome/Net/Private/DviService.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Net/Core/DvDevice.h>
-#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/Net/DvDevice.h>
+#include <OpenHome/Net/OhNet.h>
 
 #include <vector>
 #include <map>

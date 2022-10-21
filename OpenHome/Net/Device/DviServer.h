@@ -2,9 +2,9 @@
 #define HEADER_DVI_SERVER
 
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Thread.h>
 
 #include <vector>
 

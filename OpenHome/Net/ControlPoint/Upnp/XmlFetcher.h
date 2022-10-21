@@ -6,13 +6,13 @@
 #define HEADER_XML_FETCHER
 
 #include <OpenHome/Net/Private/AsyncPrivate.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Uri.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Uri.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/Fifo.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Http.h>
+#include <OpenHome/Fifo.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Http.h>
 #include <OpenHome/Net/Private/Error.h>
 #include <OpenHome/Exception.h>
 

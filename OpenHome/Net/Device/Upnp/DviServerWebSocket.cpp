@@ -1,20 +1,20 @@
 #include <OpenHome/Net/Private/DviServerWebSocket.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Http.h>
-#include <OpenHome/Private/Printer.h>
-#include <OpenHome/Private/Arch.h>
-#include <OpenHome/Private/md5.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Http.h>
+#include <OpenHome/Printer.h>
+#include <OpenHome/Arch.h>
+#include <OpenHome/md5.h>
 #include <OpenHome/Net/Private/XmlParser.h>
 #include <OpenHome/Net/Private/DviStack.h>
 #include <OpenHome/Net/Private/DviDevice.h>
 #include <OpenHome/Net/Private/DviSubscription.h>
-#include <OpenHome/Private/Fifo.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/Private/sha.h>
-#include <OpenHome/Private/Converter.h>
-#include <OpenHome/Private/Parser.h>
+#include <OpenHome/Fifo.h>
+#include <OpenHome/Debug.h>
+#include <OpenHome/sha.h>
+#include <OpenHome/Converter.h>
+#include <OpenHome/Parser.h>
 
 #include <stdlib.h>
 

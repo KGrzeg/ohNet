@@ -1,9 +1,9 @@
-#include <OpenHome/Net/Cpp/DvDevice.h>
+#include <OpenHome/Net/DvDevice.h>
 #include <OpenHome/OsTypes.h>
 #include <OpenHome/Net/Private/DviDevice.h>
-#include <OpenHome/Net/Core/DvDevice.h>
+#include <OpenHome/Net/DvDevice.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Printer.h>
 #include <OpenHome/Net/Private/Globals.h>
 
 #include <string>

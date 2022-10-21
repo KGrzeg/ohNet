@@ -2,9 +2,9 @@
 #include <OpenHome/Net/Private/Service.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/Private/Http.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Debug.h>
+#include <OpenHome/Http.h>
+#include <OpenHome/Printer.h>
 #include <OpenHome/Net/Private/DviSubscription.h>
 #include <OpenHome/Net/Private/Error.h>
 #include <OpenHome/Net/Private/DviStack.h>

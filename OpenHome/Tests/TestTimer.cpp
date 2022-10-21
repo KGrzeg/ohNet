@@ -1,6 +1,6 @@
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/Timer.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/Timer.h>
+#include <OpenHome/Env.h>
 
 using namespace OpenHome;
 using namespace OpenHome::TestFramework;

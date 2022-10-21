@@ -1,4 +1,4 @@
-#include <OpenHome/Net/Core/DvDevice.h>
+#include <OpenHome/Net/DvDevice.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/Private/DviDevice.h>

@@ -1,15 +1,15 @@
 #ifndef HEADER_TEST_FRAMEWORK
 #define HEADER_TEST_FRAMEWORK
 
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 #include <stdio.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/FunctorMsg.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Timer.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Debug.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Timer.h>
 
 namespace OpenHome {
 namespace TestFramework {

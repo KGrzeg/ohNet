@@ -2,7 +2,7 @@
 #define HEADER_DVI_PROPERTY_UPDATE_COLLECTION
 
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Thread.h>
 #include <OpenHome/Exception.h>
 #include <OpenHome/Net/Private/DviSubscription.h>
 

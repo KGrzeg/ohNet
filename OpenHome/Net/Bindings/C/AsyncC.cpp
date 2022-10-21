@@ -1,5 +1,5 @@
-#include <OpenHome/Net/C/Async.h>
-#include <OpenHome/Net/Core/FunctorAsync.h>
+#include <OpenHome/Net/Bindings/C/ControlPoint/Async.h>
+#include <OpenHome/Net/FunctorAsync.h>
 #include <OpenHome/Types.h>
 
 using namespace OpenHome;

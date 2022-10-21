@@ -1,12 +1,12 @@
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/OptionParser.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/OptionParser.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Net/Cpp/CpDevice.h>
-#include <OpenHome/Net/Cpp/CpDeviceUpnp.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Net/CpDevice.h>
+#include <OpenHome/Net/CpDeviceUpnp.h>
 #include "TestBasicDv.h"
 #include "../../ControlPoint/Tests/TestBasicCp.h"
-#include <OpenHome/Net/Cpp/DvDevice.h>
+#include <OpenHome/Net/DvDevice.h>
 #include <OpenHome/Net/Private/Globals.h>
 #include <OpenHome/Net/Private/DviStack.h>
 

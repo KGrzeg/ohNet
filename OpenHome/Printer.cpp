@@ -1,6 +1,6 @@
-#include <OpenHome/Private/Printer.h>
-#include <OpenHome/OsWrapper.h>
-#include <OpenHome/Private/Timer.h>
+#include <OpenHome/Printer.h>
+#include <Os/OsWrapper.h>
+#include <OpenHome/Timer.h>
 #include <OpenHome/Net/Private/Globals.h>
 
 #include <stdarg.h>

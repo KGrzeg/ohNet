@@ -2,17 +2,17 @@
 #define HEADER_DVISERVICE
 
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Exception.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Thread.h>
 #include <OpenHome/Net/Private/Service.h>
-#include <OpenHome/Private/Stream.h>
+#include <OpenHome/Stream.h>
 #include <OpenHome/Net/Private/FunctorDviInvocation.h>
 #include <OpenHome/Net/Private/DviSubscription.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Net/Core/DvInvocationResponse.h>
-#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Net/DvInvocationResponse.h>
+#include <OpenHome/Net/OhNet.h>
 
 #include <vector>
 

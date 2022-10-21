@@ -1,8 +1,8 @@
-#include <OpenHome/Net/Cpp/CpDeviceUpnp.h>
+#include <OpenHome/Net/CpDeviceUpnp.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/Private/CpiDeviceUpnp.h>
-#include <OpenHome/Net/Cpp/FunctorCpDevice.h>
+#include <OpenHome/Net/FunctorCpDevice.h>
 #include <OpenHome/Net/Private/FunctorCpiDevice.h>
 #include <OpenHome/Net/Private/Globals.h>
 

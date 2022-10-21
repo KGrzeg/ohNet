@@ -1,8 +1,8 @@
 #include <OpenHome/Net/Private/Error.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/Standard.h>
-#include <OpenHome/Private/Ascii.h>
+#include <OpenHome/Standard.h>
+#include <OpenHome/Ascii.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

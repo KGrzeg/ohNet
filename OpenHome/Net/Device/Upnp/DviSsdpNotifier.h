@@ -2,7 +2,7 @@
 #define HEADER_DVI_SSDP_NOTIFIER
 
 #include <OpenHome/Net/Private/DviProtocolUpnp.h>
-#include <OpenHome/Private/Network.h>
+#include <OpenHome/Network.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Exception.h>

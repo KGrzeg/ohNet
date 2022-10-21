@@ -1,10 +1,10 @@
 #include <OpenHome/Net/Private/CpiStack.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Env.h>
 #include <OpenHome/Net/Private/CpiService.h>
 #include <OpenHome/Net/Private/XmlFetcher.h>
 #include <OpenHome/Net/Private/CpiSubscription.h>
 #include <OpenHome/Net/Private/CpiDevice.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Printer.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

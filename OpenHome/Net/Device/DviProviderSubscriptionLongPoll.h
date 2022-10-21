@@ -3,9 +3,9 @@
 
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/Core/DvOpenhomeOrgSubscriptionLongPoll1.h>
-#include <OpenHome/Net/Core/DvDevice.h>
-#include <OpenHome/Private/Thread.h>
+#include <OpenHome/Net/DvOpenhomeOrgSubscriptionLongPoll1.h>
+#include <OpenHome/Net/DvDevice.h>
+#include <OpenHome/Thread.h>
 
 #include <vector>
 #include <map>

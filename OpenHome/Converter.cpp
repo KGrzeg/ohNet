@@ -1,9 +1,9 @@
-#include <OpenHome/Private/Converter.h>
+#include <OpenHome/Converter.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Printer.h>
 
 extern "C"
 {

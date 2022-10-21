@@ -1,7 +1,7 @@
 #include <OpenHome/Net/Private/Subscription.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Http.h>
+#include <OpenHome/Http.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

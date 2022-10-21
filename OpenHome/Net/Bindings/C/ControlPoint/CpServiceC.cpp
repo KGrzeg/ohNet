@@ -1,12 +1,12 @@
-#include <OpenHome/Net/C/CpService.h>
-#include <OpenHome/Net/C/Service.h>
+#include <OpenHome/Net/Bindings/C/CpService.h>
+#include <OpenHome/Net/Bindings/C/Service.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/C/OhNet.h>
+#include <OpenHome/Net/Bindings/C/OhNet.h>
 #include <OpenHome/Net/Private/CpiService.h>
 #include <OpenHome/Net/Private/Service.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/Core/FunctorAsync.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Net/FunctorAsync.h>
+#include <OpenHome/Printer.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

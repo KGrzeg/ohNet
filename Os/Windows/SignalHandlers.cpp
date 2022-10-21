@@ -1,6 +1,6 @@
-#include <OpenHome/Os.h>
+#include <Os/Os.h>
 #include <OpenHome/Exception.h>
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 
 #ifdef DEFINE_WINDOWS_UNIVERSAL
 extern "C" void OsThreadInstallSignalHandlers()

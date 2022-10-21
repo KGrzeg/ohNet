@@ -4,11 +4,11 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Exception.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Stream.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Stream.h>
 #include <OpenHome/OsTypes.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Private/TIpAddressUtils.h>
+#include <OpenHome/Env.h>
+#include <OpenHome/TIpAddressUtils.h>
 
 #include <vector>
 

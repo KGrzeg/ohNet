@@ -1,4 +1,4 @@
-#include <OpenHome/Net/Core/CpDeviceDv.h>
+#include <OpenHome/Net/CpDeviceDv.h>
 #include <OpenHome/Net/Private/CpiDeviceDv.h>
 #include <OpenHome/Net/Private/DviDevice.h>
 

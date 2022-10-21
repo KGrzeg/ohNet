@@ -1,5 +1,5 @@
-#include <OpenHome/Net/C/DvInvocationPrivate.h>
-#include <OpenHome/Net/C/DvInvocation.h>
+#include <OpenHome/Net/Bindings/C/DvInvocationPrivate.h>
+#include <OpenHome/Net/Bindings/C/DvInvocation.h>
 #include <OpenHome/Net/Private/DviService.h>
 
 using namespace OpenHome;

@@ -9,14 +9,14 @@
    when reviewing test results however. */
 
 
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/OptionParser.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/OptionParser.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Net/Private/Discovery.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Timer.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Private/NetworkAdapterList.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Timer.h>
+#include <OpenHome/Env.h>
+#include <OpenHome/NetworkAdapterList.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

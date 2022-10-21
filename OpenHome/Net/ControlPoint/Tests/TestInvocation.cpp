@@ -2,18 +2,18 @@
 // Builds a list of providers of the ConnectionManager service
 // ... then checks how many times GetProtocolInfo can be run on each device in a second
 
-#include <OpenHome/Private/TestFramework.h>
+#include <OpenHome/TestFramework.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Net/Private/Discovery.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Timer.h>
-#include <OpenHome/Net/Core/CpDevice.h>
-#include <OpenHome/Net/Core/CpDeviceUpnp.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Timer.h>
+#include <OpenHome/Net/CpDevice.h>
+#include <OpenHome/Net/CpDeviceUpnp.h>
+#include <OpenHome/Env.h>
 #include <OpenHome/Net/Private/CpiStack.h>
-#include <OpenHome/OsWrapper.h>
-#include <OpenHome/Net/Core/FunctorCpDevice.h>
-#include <OpenHome/Net/Core/CpUpnpOrgConnectionManager1.h>
+#include <Os/OsWrapper.h>
+#include <OpenHome/Net/FunctorCpDevice.h>
+#include <OpenHome/Net/CpUpnpOrgConnectionManager1.h>
 
 #include <vector>
 

@@ -1,5 +1,5 @@
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/Stream.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/Stream.h>
 #include <cstdarg>
 
 using namespace OpenHome;

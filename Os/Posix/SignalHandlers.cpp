@@ -1,4 +1,4 @@
-#include <OpenHome/Os.h>
+#include <Os/Os.h>
 
 extern "C" void OsThreadInstallSignalHandlers()
 {

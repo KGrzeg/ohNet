@@ -2,7 +2,7 @@
 #define HEADER_ARCH
 
 #include <OpenHome/Types.h>
-#include <OpenHome/OsWrapper.h>
+#include <Os/OsWrapper.h>
 
 namespace OpenHome {
 

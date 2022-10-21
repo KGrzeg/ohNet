@@ -1,11 +1,11 @@
-#include <OpenHome/Net/C/OhNet.h>
-#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/Net/Bindings/C/OhNet.h>
+#include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Functor.h>
 #include <OpenHome/FunctorMsg.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Private/Debug.h>
+#include <OpenHome/Env.h>
+#include <OpenHome/Debug.h>
 #include <OpenHome/Net/Private/Globals.h>
-#include <OpenHome/OsWrapper.h>
+#include <Os/OsWrapper.h>
 #include <OpenHome/Net/Private/CpiStack.h>
 #include <OpenHome/Net/Private/CpiSubscription.h>
 

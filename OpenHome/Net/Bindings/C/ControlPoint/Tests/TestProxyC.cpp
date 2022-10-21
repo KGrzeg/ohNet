@@ -3,18 +3,18 @@
    ...but C versions of all APIs being tested are used
 */
 
-#include <OpenHome/Net/C/OhNet.h>
-#include <OpenHome/Net/C/CpDevice.h>
-#include <OpenHome/Net/C/CpDeviceUpnp.h>
-#include <OpenHome/Net/C/CpUpnpOrgConnectionManager1.h>
-#include <OpenHome/Net/C/CpProxy.h>
-#include <OpenHome/Net/C/Async.h>
+#include <OpenHome/Net/Bindings/C/OhNet.h>
+#include <OpenHome/Net/Bindings/C/CpDevice.h>
+#include <OpenHome/Net/Bindings/C/CpDeviceUpnp.h>
+#include <OpenHome/Net/Bindings/C/CpUpnpOrgConnectionManager1.h>
+#include <OpenHome/Net/Bindings/C/CpProxy.h>
+#include <OpenHome/Net/Bindings/C/ControlPoint/Async.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/OsWrapper.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Private/Debug.h>
+#include <OpenHome/TestFramework.h>
+#include <Os/OsWrapper.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Env.h>
+#include <OpenHome/Debug.h>
 #include <OpenHome/Net/Private/Globals.h>
 
 #include <stdlib.h>

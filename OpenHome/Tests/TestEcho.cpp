@@ -1,10 +1,10 @@
-#include <OpenHome/Private/Standard.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Network.h>
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/OsWrapper.h>
+#include <OpenHome/Standard.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Network.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/Debug.h>
+#include <OpenHome/Stream.h>
+#include <Os/OsWrapper.h>
 #include <OpenHome/Net/Private/Globals.h>
 
 using namespace OpenHome;

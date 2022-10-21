@@ -1,11 +1,11 @@
 #ifndef HEADER_PRINTER
 #define HEADER_PRINTER
 
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/FunctorMsg.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Stream.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Stream.h>
 #include <stdarg.h>
 #include <stdio.h>
 

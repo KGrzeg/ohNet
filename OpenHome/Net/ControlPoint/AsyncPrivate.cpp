@@ -1,8 +1,8 @@
 #include <OpenHome/Net/Private/AsyncPrivate.h>
-#include <OpenHome/Net/Core/FunctorAsync.h>
+#include <OpenHome/Net/FunctorAsync.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Net/Core/CpProxy.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Net/CpProxy.h>
 #include <OpenHome/Net/Private/Error.h>
 
 using namespace OpenHome;

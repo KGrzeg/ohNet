@@ -1,5 +1,5 @@
-#include <OpenHome/Private/TIpAddressUtils.h>
-#include <OpenHome/Private/Ascii.h>
+#include <OpenHome/TIpAddressUtils.h>
+#include <OpenHome/Ascii.h>
 
 #include <stdio.h>
 

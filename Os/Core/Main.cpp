@@ -1,6 +1,6 @@
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Os.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/TestFramework.h>
+#include <Os/Os.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

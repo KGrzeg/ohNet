@@ -3,12 +3,12 @@
    ...but C versions of all APIs being tested are used
 */
 
-#include <OpenHome/Net/C/OhNet.h>
+#include <OpenHome/Net/Bindings/C/OhNet.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Net/C/CpDevice.h>
-#include <OpenHome/Net/C/CpDeviceDv.h>
-#include <OpenHome/Private/Debug.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/Net/Bindings/C/CpDevice.h>
+#include <OpenHome/Net/Bindings/C/CpDeviceDv.h>
+#include <OpenHome/Debug.h>
 #include "../../Device/Tests/TestBasicDv.h"
 #include "TestBasicCp.h"
 

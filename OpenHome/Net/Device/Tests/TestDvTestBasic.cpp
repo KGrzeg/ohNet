@@ -1,11 +1,11 @@
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/OptionParser.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/OptionParser.h>
 #include "TestBasicDv.h"
-#include <OpenHome/Net/Core/DvStack.h>
-#include <OpenHome/Net/Core/DvOpenhomeOrgTestBasic1.h>
-#include <OpenHome/Net/Core/CpOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Net/DvStack.h>
+#include <OpenHome/Net/DvOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Net/CpOpenhomeOrgTestBasic1.h>
 #include <OpenHome/Net/Private/DviProviderSubscriptionLongPoll.h>
-#include <OpenHome/Private/File.h>
+#include <OpenHome/File.h>
 #include <OpenHome/Net/Private/DviStack.h>
 
 #include <vector>

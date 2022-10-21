@@ -1,7 +1,7 @@
 #ifndef HEADER_SUITE_UNIT_TEST
 #define HEADER_SUITE_UNIT_TEST
 
-#include <OpenHome/Private/TestFramework.h>
+#include <OpenHome/TestFramework.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Functor.h>
 

@@ -1,12 +1,12 @@
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Private/OptionParser.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/OptionParser.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Net/Private/Discovery.h>
-#include <OpenHome/Private/Thread.h>
-#include <OpenHome/Private/Timer.h>
-#include <OpenHome/OsWrapper.h>
+#include <OpenHome/Thread.h>
+#include <OpenHome/Timer.h>
+#include <Os/OsWrapper.h>
 #include <CpDeviceUpnp.h>
-#include <OpenHome/Net/Core/FunctorCpDevice.h>
+#include <OpenHome/Net/FunctorCpDevice.h>
 #include <Cpp/Core/CpUpnpOrgSwitchPower1.h>
 #include <Cpp/Core/CpUpnpOrgDimming1.h>
 

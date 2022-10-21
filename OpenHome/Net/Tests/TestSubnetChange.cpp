@@ -1,7 +1,7 @@
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/TestFramework.h>
-#include <OpenHome/Net/Core/OhNet.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/TestFramework.h>
+#include <OpenHome/Net/OhNet.h>
+#include <OpenHome/Printer.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

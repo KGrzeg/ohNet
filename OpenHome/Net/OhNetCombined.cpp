@@ -1,4 +1,4 @@
-#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/Net/OhNet.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

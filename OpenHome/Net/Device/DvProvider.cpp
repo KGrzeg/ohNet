@@ -1,9 +1,9 @@
-#include <OpenHome/Net/Core/DvProvider.h>
+#include <OpenHome/Net/DvProvider.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/Private/DviDevice.h>
-#include <OpenHome/Private/Printer.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Printer.h>
+#include <OpenHome/Env.h>
 #include <OpenHome/Net/Private/DviStack.h>
 
 using namespace OpenHome;

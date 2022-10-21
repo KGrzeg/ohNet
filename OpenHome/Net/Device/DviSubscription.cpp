@@ -3,12 +3,12 @@
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/Private/DviService.h>
 #include <OpenHome/Net/Private/Service.h>
-#include <OpenHome/Private/Network.h>
+#include <OpenHome/Network.h>
 #include <OpenHome/Functor.h>
 #include <OpenHome/Net/Private/DviStack.h>
-#include <OpenHome/Private/Debug.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Converter.h>
+#include <OpenHome/Debug.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Converter.h>
 
 #include <vector>
 #include <stdlib.h>

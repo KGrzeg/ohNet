@@ -1,8 +1,8 @@
-#include <OpenHome/Private/InfoProvider.h>
+#include <OpenHome/InfoProvider.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Stream.h>
-#include <OpenHome/Private/Shell.h>
+#include <OpenHome/Stream.h>
+#include <OpenHome/Shell/Shell.h>
 
 #include <vector>
 #include <map>

@@ -1,4 +1,4 @@
-#include <OpenHome/Private/SuiteUnitTest.h>
+#include <OpenHome/SuiteUnitTest.h>
 #include <OpenHome/Functor.h>
 
 using namespace OpenHome;

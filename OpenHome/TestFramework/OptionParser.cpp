@@ -1,7 +1,7 @@
-#include <OpenHome/Private/OptionParser.h>
-#include <OpenHome/Private/Ascii.h>
+#include <OpenHome/OptionParser.h>
+#include <OpenHome/Ascii.h>
 #include <OpenHome/Exception.h>
-#include <OpenHome/Private/TestFramework.h>
+#include <OpenHome/TestFramework.h>
 
 #include <string.h>
 

@@ -1,7 +1,7 @@
 #ifndef HEADER_SHELL_COMMAND_WATCHDOG
 #define HEADER_SHELL_COMMAND_WATCHDOG
 
-#include <OpenHome/Private/Shell.h>
+#include <OpenHome/Shell/Shell.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 

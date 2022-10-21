@@ -1,6 +1,6 @@
-#include <OpenHome/Private/Crc32.h>
+#include <OpenHome/Crc32.h>
 
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Printer.h>
 
 using namespace OpenHome;
 

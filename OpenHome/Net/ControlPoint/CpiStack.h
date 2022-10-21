@@ -8,8 +8,8 @@
 #define HEADER_CPI_STACK
 
 #include <OpenHome/Types.h>
-#include <OpenHome/Private/Env.h>
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Env.h>
+#include <OpenHome/Standard.h>
 
 #include <vector>
 

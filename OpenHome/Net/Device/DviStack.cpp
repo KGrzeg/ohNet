@@ -1,9 +1,9 @@
 #include <OpenHome/Net/Private/DviStack.h>
-#include <OpenHome/Private/Env.h>
+#include <OpenHome/Env.h>
 #include <OpenHome/Net/Private/DviServerUpnp.h>
 #include <OpenHome/Net/Private/DviDevice.h>
 #include <OpenHome/Net/Private/DviSubscription.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Printer.h>
 #include <OpenHome/Net/Private/DviServerWebSocket.h>
 #include <OpenHome/Net/Private/Bonjour.h>
 #include <OpenHome/Net/Private/DviPropertyUpdateCollection.h>

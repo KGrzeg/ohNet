@@ -1,9 +1,9 @@
 #ifndef HEADER_DEBUG
 #define HEADER_DEBUG
 
-#include <OpenHome/Private/Standard.h>
+#include <OpenHome/Standard.h>
 #include <stdarg.h>
-#include <OpenHome/Private/Printer.h>
+#include <OpenHome/Printer.h>
 #include <OpenHome/Types.h>
 
 class AutoLog

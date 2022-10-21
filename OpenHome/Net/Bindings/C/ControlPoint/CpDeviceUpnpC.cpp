@@ -1,4 +1,4 @@
-#include <OpenHome/Net/C/CpDeviceUpnp.h>
+#include <OpenHome/Net/Bindings/C/CpDeviceUpnp.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/Private/CpiDeviceUpnp.h>

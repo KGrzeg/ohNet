@@ -1,9 +1,9 @@
 #include <OpenHome/Net/Private/XmlParser.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Private/Ascii.h>
-#include <OpenHome/Private/Parser.h>
-#include <OpenHome/Private/Debug.h>
+#include <OpenHome/Ascii.h>
+#include <OpenHome/Parser.h>
+#include <OpenHome/Debug.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;
