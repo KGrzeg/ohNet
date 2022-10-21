@@ -9,10 +9,10 @@
    when reviewing test results however. */
 
 
-#include <OpenHome/TestFramework.h>
-#include <OpenHome/OptionParser.h>
+#include <OpenHome/TestFramework/TestFramework.h>
+#include <OpenHome/TestFramework/OptionParser.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Private/Discovery.h>
+#include <OpenHome/Net/Discovery.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Timer.h>
 #include <OpenHome/Env.h>

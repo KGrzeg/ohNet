@@ -1,17 +1,17 @@
 #ifndef HEADER_DVI_SERVER_WEBSOCKET
 #define HEADER_DVI_SERVER_WEBSOCKET
 
-#include <OpenHome/Net/Private/DviServer.h>
+#include <OpenHome/Net/Device/DviServer.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Network.h>
-#include <OpenHome/Net/Private/Service.h>
+#include <OpenHome/Net/Service.h>
 #include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Stream.h>
 #include <OpenHome/Http.h>
 #include <OpenHome/Exception.h>
 #include <OpenHome/Fifo.h>
-#include <OpenHome/Net/Private/DviSubscription.h>
+#include <OpenHome/Net/Device/DviSubscription.h>
 
 #include <map>
 

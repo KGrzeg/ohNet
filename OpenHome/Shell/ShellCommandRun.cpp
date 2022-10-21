@@ -1,6 +1,6 @@
 #include <OpenHome/Shell/ShellCommandRun.h>
-#include <OpenHome/TestFramework.h>
-#include <OpenHome/Net/Private/CpiStack.h>
+#include <OpenHome/TestFramework/TestFramework.h>
+#include <OpenHome/Net/ControlPoint/CpiStack.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

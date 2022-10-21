@@ -1,11 +1,11 @@
 #ifndef HEADER_DEVICE_LPEC
 #define HEADER_DEVICE_LPEC
 
-#include <OpenHome/Net/Private/CpiDevice.h>
+#include <OpenHome/Net/CpiDevice.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Net/Private/CpiService.h>
+#include <OpenHome/Net/CpiService.h>
 #include <OpenHome/Network.h>
 #include <OpenHome/Standard.h>
 #include <OpenHome/Stream.h>

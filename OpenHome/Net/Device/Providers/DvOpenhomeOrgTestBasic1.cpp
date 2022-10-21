@@ -1,9 +1,9 @@
 #include "DvOpenhomeOrgTestBasic1.h"
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/DvInvocationResponse.h>
-#include <OpenHome/Net/Private/Service.h>
-#include <OpenHome/Net/Private/FunctorDviInvocation.h>
-#include <OpenHome/Net/Private/DviStack.h>
+#include <OpenHome/Net/Device/DvInvocationResponse.h>
+#include <OpenHome/Net/Service.h>
+#include <OpenHome/Net/Device/FunctorDviInvocation.h>
+#include <OpenHome/Net/Device/DviStack.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

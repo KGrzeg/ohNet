@@ -2,7 +2,7 @@
 #include <OpenHome/Net/CpOpenhomeOrgTestBasic1.h>
 #include <OpenHome/Net/CpDevice.h>
 #include "TestBasicCp.h"
-#include <OpenHome/TestFramework.h>
+#include <OpenHome/TestFramework/TestFramework.h>
 
 #include <string>
 

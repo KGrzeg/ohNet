@@ -5,12 +5,12 @@
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Exception.h>
 #include <OpenHome/Network.h>
-#include <OpenHome/Net/Private/Service.h>
+#include <OpenHome/Net/Service.h>
 #include <OpenHome/Timer.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Fifo.h>
 #include <OpenHome/Net/OhNet.h>
-#include <OpenHome/InfoProvider.h>
+#include <OpenHome/Shell/InfoProvider.h>
 
 #include <vector>
 #include <map>

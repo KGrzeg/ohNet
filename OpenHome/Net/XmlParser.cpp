@@ -1,4 +1,4 @@
-#include <OpenHome/Net/Private/XmlParser.h>
+#include <OpenHome/Net/XmlParser.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Ascii.h>

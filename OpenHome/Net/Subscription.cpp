@@ -1,4 +1,4 @@
-#include <OpenHome/Net/Private/Subscription.h>
+#include <OpenHome/Net/Subscription.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Http.h>

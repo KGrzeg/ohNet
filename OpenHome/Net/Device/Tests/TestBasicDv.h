@@ -3,9 +3,9 @@
 
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/DvDevice.h>
-#include <OpenHome/Net/DvInvocationResponse.h>
-#include <OpenHome/Net/DvOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Net/Device/DvDevice.h>
+#include <OpenHome/Net/Device/DvInvocationResponse.h>
+#include <OpenHome/Net/Device/DvOpenhomeOrgTestBasic1.h>
 
 namespace OpenHome {
 namespace Net {

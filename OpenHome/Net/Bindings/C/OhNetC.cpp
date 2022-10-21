@@ -4,10 +4,10 @@
 #include <OpenHome/FunctorMsg.h>
 #include <OpenHome/Env.h>
 #include <OpenHome/Debug.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Globals.h>
 #include <Os/OsWrapper.h>
-#include <OpenHome/Net/Private/CpiStack.h>
-#include <OpenHome/Net/Private/CpiSubscription.h>
+#include <OpenHome/Net/ControlPoint/CpiStack.h>
+#include <OpenHome/Net/CpiSubscription.h>
 
 #include <stdlib.h>
 

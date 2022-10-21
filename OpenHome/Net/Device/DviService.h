@@ -6,12 +6,12 @@
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Exception.h>
 #include <OpenHome/Thread.h>
-#include <OpenHome/Net/Private/Service.h>
+#include <OpenHome/Net/Service.h>
 #include <OpenHome/Stream.h>
-#include <OpenHome/Net/Private/FunctorDviInvocation.h>
-#include <OpenHome/Net/Private/DviSubscription.h>
+#include <OpenHome/Net/Device/FunctorDviInvocation.h>
+#include <OpenHome/Net/Device/DviSubscription.h>
 #include <OpenHome/Thread.h>
-#include <OpenHome/Net/DvInvocationResponse.h>
+#include <OpenHome/Net/Device/DvInvocationResponse.h>
 #include <OpenHome/Net/OhNet.h>
 
 #include <vector>

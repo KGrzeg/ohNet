@@ -15,6 +15,6 @@
 #include <OpenHome/Net/CpDevice.h>
 #include <OpenHome/Net/CpDeviceDv.h>
 #include <OpenHome/Net/CpDeviceUpnp.h>
-#include <OpenHome/Net/FunctorCpDevice.h>
+#include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
 
 #endif // HEADER_OHNET_CONTROLPOINT_CORE

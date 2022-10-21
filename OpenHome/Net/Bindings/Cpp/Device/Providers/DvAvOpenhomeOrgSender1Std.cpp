@@ -1,10 +1,10 @@
 #include "DvAvOpenhomeOrgSender1.h"
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Private/DviService.h>
-#include <OpenHome/Net/Private/Service.h>
-#include <OpenHome/Net/Private/FunctorDviInvocation.h>
-#include <OpenHome/Net/DvInvocation.h>
-#include <OpenHome/Net/Private/DviStack.h>
+#include <OpenHome/Net/Device/DviService.h>
+#include <OpenHome/Net/Service.h>
+#include <OpenHome/Net/Device/FunctorDviInvocation.h>
+#include <OpenHome/Net/Bindings/C/Device/DvInvocation.h>
+#include <OpenHome/Net/Device/DviStack.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

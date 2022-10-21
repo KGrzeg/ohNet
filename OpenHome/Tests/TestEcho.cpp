@@ -1,11 +1,11 @@
 #include <OpenHome/Standard.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Network.h>
-#include <OpenHome/TestFramework.h>
+#include <OpenHome/TestFramework/TestFramework.h>
 #include <OpenHome/Debug.h>
 #include <OpenHome/Stream.h>
 #include <Os/OsWrapper.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Globals.h>
 
 using namespace OpenHome;
 using namespace OpenHome::TestFramework;

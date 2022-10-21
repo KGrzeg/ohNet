@@ -1,6 +1,6 @@
 #include <OpenHome/OsTypes.h>
-#include <OpenHome/Net/DvInvocation.h>
-#include <OpenHome/Net/Private/DviService.h>
+#include <OpenHome/Net/Bindings/C/Device/DvInvocation.h>
+#include <OpenHome/Net/Device/DviService.h>
 #include <OpenHome/Network.h>
 
 using namespace OpenHome;

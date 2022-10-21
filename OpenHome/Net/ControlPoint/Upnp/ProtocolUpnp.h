@@ -8,7 +8,7 @@
 #include <OpenHome/Standard.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/Private/CpiService.h>
+#include <OpenHome/Net/CpiService.h>
 #include <OpenHome/Network.h>
 #include <OpenHome/Http.h>
 #include <OpenHome/Ascii.h>

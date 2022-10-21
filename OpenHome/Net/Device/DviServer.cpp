@@ -1,9 +1,9 @@
-#include <OpenHome/Net/Private/DviServer.h>
+#include <OpenHome/Net/Device/DviServer.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Network.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Env.h>
-#include <OpenHome/Net/Private/DviStack.h>
+#include <OpenHome/Net/Device/DviStack.h>
 #include <OpenHome/NetworkAdapterList.h>
 #include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Printer.h>

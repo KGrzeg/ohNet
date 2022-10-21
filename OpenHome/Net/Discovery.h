@@ -4,7 +4,7 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Thread.h>
-#include <OpenHome/Net/Private/Ssdp.h>
+#include <OpenHome/Net/Ssdp.h>
 #include <OpenHome/Stream.h>
 #include <OpenHome/Network.h>
 

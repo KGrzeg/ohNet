@@ -5,8 +5,8 @@
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Exception.h>
 #include <OpenHome/Network.h>
-#include <OpenHome/Net/Private/DviService.h>
-#include <OpenHome/Net/Private/DviServer.h>
+#include <OpenHome/Net/Device/DviService.h>
+#include <OpenHome/Net/Device/DviServer.h>
 #include <OpenHome/Stream.h>
 #include <OpenHome/Parser.h>
 #include <OpenHome/Standard.h>

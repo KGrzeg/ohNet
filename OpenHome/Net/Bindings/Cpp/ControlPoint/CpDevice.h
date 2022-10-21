@@ -2,7 +2,7 @@
 #define HEADER_CPDEVICECPP
 
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/FunctorCpDevice.h>
+#include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
 
 #include <string>
 #include <map>

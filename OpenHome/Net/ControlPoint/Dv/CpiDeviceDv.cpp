@@ -1,15 +1,15 @@
-#include <OpenHome/Net/Private/CpiDeviceDv.h>
-#include <OpenHome/Net/Private/DviDevice.h>
-#include <OpenHome/Net/Private/DviService.h>
+#include <OpenHome/Net/CpiDeviceDv.h>
+#include <OpenHome/Net/Device/DviDevice.h>
+#include <OpenHome/Net/Device/DviService.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/Private/CpiService.h>
-#include <OpenHome/Net/Private/CpiSubscription.h>
+#include <OpenHome/Net/CpiService.h>
+#include <OpenHome/Net/CpiSubscription.h>
 #include <OpenHome/Stream.h>
 #include <OpenHome/Net/CpProxy.h>
 #include <OpenHome/Printer.h>
-#include <OpenHome/Net/Private/CpiStack.h>
-#include <OpenHome/Net/Private/DviStack.h>
+#include <OpenHome/Net/ControlPoint/CpiStack.h>
+#include <OpenHome/Net/Device/DviStack.h>
 #include <OpenHome/Debug.h>
 #include <OpenHome/Env.h>
 

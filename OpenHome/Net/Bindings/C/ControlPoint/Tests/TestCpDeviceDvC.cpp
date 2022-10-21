@@ -5,7 +5,7 @@
 
 #include <OpenHome/Net/Bindings/C/OhNet.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/TestFramework.h>
+#include <OpenHome/TestFramework/TestFramework.h>
 #include <OpenHome/Net/Bindings/C/CpDevice.h>
 #include <OpenHome/Net/Bindings/C/CpDeviceDv.h>
 #include <OpenHome/Debug.h>

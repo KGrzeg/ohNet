@@ -1,11 +1,11 @@
-#include <OpenHome/Net/Private/DviSubscription.h>
+#include <OpenHome/Net/Device/DviSubscription.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/Private/DviService.h>
-#include <OpenHome/Net/Private/Service.h>
+#include <OpenHome/Net/Device/DviService.h>
+#include <OpenHome/Net/Service.h>
 #include <OpenHome/Network.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Net/Private/DviStack.h>
+#include <OpenHome/Net/Device/DviStack.h>
 #include <OpenHome/Debug.h>
 #include <OpenHome/Ascii.h>
 #include <OpenHome/Converter.h>

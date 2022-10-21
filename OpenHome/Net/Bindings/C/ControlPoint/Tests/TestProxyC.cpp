@@ -10,12 +10,12 @@
 #include <OpenHome/Net/Bindings/C/CpProxy.h>
 #include <OpenHome/Net/Bindings/C/ControlPoint/Async.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/TestFramework.h>
+#include <OpenHome/TestFramework/TestFramework.h>
 #include <Os/OsWrapper.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Env.h>
 #include <OpenHome/Debug.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Globals.h>
 
 #include <stdlib.h>
 #include <string.h>

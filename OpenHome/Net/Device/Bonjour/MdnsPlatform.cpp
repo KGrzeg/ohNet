@@ -1,6 +1,6 @@
-#include <OpenHome/Net/Private/MdnsPlatform.h>
+#include <OpenHome/Net/Device/Bonjour/MdnsPlatform.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Os.h>
+#include <Os/Os.h>
 #include <OpenHome/Debug.h>
 #include <OpenHome/Network.h>
 #include <OpenHome/Thread.h>
@@ -9,13 +9,13 @@
 #include <OpenHome/Env.h>
 #include <OpenHome/NetworkAdapterList.h>
 #include <OpenHome/Net/OhNet.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Globals.h>
 #include <OpenHome/TIpAddressUtils.h>
 
 #include <stdlib.h>
 #include <string.h>
 
-#include <OpenHome/Net/Private/mDNSEmbeddedAPI.h>
+#include <thirdparty/mDNSResponder-1310.80.1/mDNSCore/mDNSEmbeddedAPI.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

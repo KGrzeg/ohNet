@@ -1,4 +1,4 @@
-#include <OpenHome/Net/Private/DviServerWebSocket.h>
+#include <OpenHome/Net/Device/Upnp/DviServerWebSocket.h>
 #include <OpenHome/Network.h>
 #include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Stream.h>
@@ -6,10 +6,10 @@
 #include <OpenHome/Printer.h>
 #include <OpenHome/Arch.h>
 #include <OpenHome/md5.h>
-#include <OpenHome/Net/Private/XmlParser.h>
-#include <OpenHome/Net/Private/DviStack.h>
-#include <OpenHome/Net/Private/DviDevice.h>
-#include <OpenHome/Net/Private/DviSubscription.h>
+#include <OpenHome/Net/XmlParser.h>
+#include <OpenHome/Net/Device/DviStack.h>
+#include <OpenHome/Net/Device/DviDevice.h>
+#include <OpenHome/Net/Device/DviSubscription.h>
 #include <OpenHome/Fifo.h>
 #include <OpenHome/Debug.h>
 #include <OpenHome/sha.h>

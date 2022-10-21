@@ -2,18 +2,18 @@
 #include <OpenHome/Env.h>
 #include <OpenHome/Standard.h>
 #include <Os/OsWrapper.h>
-#include <OpenHome/Net/Private/Discovery.h>
+#include <OpenHome/Net/Discovery.h>
 #include <OpenHome/NetworkAdapterList.h>
 #include <OpenHome/Printer.h>
 #include <OpenHome/MimeTypes.h>
 #include <OpenHome/Timer.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Globals.h>
 #include <OpenHome/Debug.h>
 #include <OpenHome/DnsChangeNotifier.h>
 #include <OpenHome/Shell/Shell.h>
-#include <OpenHome/InfoProvider.h>
+#include <OpenHome/Shell/InfoProvider.h>
 #include <OpenHome/Shell/ShellCommandDebug.h>
-#include <OpenHome/Net/Private/MdnsProvider.h>
+#include <OpenHome/Net/Device/Bonjour/MdnsProvider.h>
 #include <OpenHome/TIpAddressUtils.h>
 
 #ifdef PLATFORM_MACOSX_GNU

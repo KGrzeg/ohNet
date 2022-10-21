@@ -1,11 +1,11 @@
-#include <OpenHome/Net/Private/DviPropertyUpdateCollection.h>
-#include <OpenHome/Net/Private/DviServerWebSocket.h>
+#include <OpenHome/Net/Device/DviPropertyUpdateCollection.h>
+#include <OpenHome/Net/Device/Upnp/DviServerWebSocket.h>
 #include <OpenHome/Printer.h>
-#include <OpenHome/Net/Private/DviSubscription.h>
-#include <OpenHome/Net/Private/DviService.h>
+#include <OpenHome/Net/Device/DviSubscription.h>
+#include <OpenHome/Net/Device/DviService.h>
 #include <OpenHome/Converter.h>
 #include <OpenHome/Env.h>
-#include <OpenHome/Net/Private/DviStack.h>
+#include <OpenHome/Net/Device/DviStack.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

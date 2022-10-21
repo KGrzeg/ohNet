@@ -3,7 +3,7 @@
 
 #include <OpenHome/Types.h>
 #include <OpenHome/Net/CpDevice.h>
-#include <OpenHome/Net/FunctorCpDevice.h>
+#include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
 
 #include <string>
 

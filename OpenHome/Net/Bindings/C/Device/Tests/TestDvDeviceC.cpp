@@ -5,10 +5,10 @@
 
 #include <OpenHome/Net/Bindings/C/OhNet.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/TestFramework.h>
+#include <OpenHome/TestFramework/TestFramework.h>
 #include <OpenHome/Net/Bindings/C/CpStack.h>
 #include <OpenHome/Net/Bindings/C/DvStack.h>
-#include <OpenHome/Net/Private/DviDevice.h>
+#include <OpenHome/Net/Device/DviDevice.h>
 #include <OpenHome/Net/Bindings/C/DvOpenhomeOrgTestBasic1.h>
 #include <OpenHome/Net/Bindings/C/CpOpenhomeOrgTestBasic1.h>
 #include <OpenHome/Ascii.h>

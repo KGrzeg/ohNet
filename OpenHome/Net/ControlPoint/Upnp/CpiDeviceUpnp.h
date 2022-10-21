@@ -11,12 +11,12 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Thread.h>
-#include <OpenHome/Net/Private/Discovery.h>
+#include <OpenHome/Net/Discovery.h>
 #include <OpenHome/Timer.h>
-#include <OpenHome/Net/Private/CpiDevice.h>
-#include <OpenHome/Net/Private/CpiService.h>
-#include <OpenHome/Net/Private/DeviceXml.h>
-#include <OpenHome/Net/Private/XmlFetcher.h>
+#include <OpenHome/Net/CpiDevice.h>
+#include <OpenHome/Net/CpiService.h>
+#include <OpenHome/Net/DeviceXml.h>
+#include <OpenHome/Net/XmlFetcher.h>
 #include <OpenHome/Env.h>
 
 namespace OpenHome {

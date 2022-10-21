@@ -1,6 +1,6 @@
 #include <OpenHome/Net/CpDeviceDv.h>
-#include <OpenHome/Net/Private/CpiDeviceDv.h>
-#include <OpenHome/Net/Private/DviDevice.h>
+#include <OpenHome/Net/CpiDeviceDv.h>
+#include <OpenHome/Net/Device/DviDevice.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

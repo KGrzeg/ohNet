@@ -2,8 +2,8 @@
 #include <OpenHome/Net/Bindings/C/Service.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Net/Bindings/C/OhNet.h>
-#include <OpenHome/Net/Private/CpiService.h>
-#include <OpenHome/Net/Private/Service.h>
+#include <OpenHome/Net/CpiService.h>
+#include <OpenHome/Net/Service.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/FunctorAsync.h>
 #include <OpenHome/Printer.h>

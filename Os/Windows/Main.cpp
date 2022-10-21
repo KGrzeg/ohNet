@@ -6,7 +6,7 @@ extern "C" {
 }
 
 #include <OpenHome/Net/OhNet.h>
-#include <OpenHome/TestFramework.h>
+#include <OpenHome/TestFramework/TestFramework.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

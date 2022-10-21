@@ -1,5 +1,5 @@
-#include <OpenHome/TestFramework.h>
-#include <OpenHome/OptionParser.h>
+#include <OpenHome/TestFramework/TestFramework.h>
+#include <OpenHome/TestFramework/OptionParser.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Functor.h>
@@ -7,10 +7,10 @@
 #include <Os/OsWrapper.h>
 #include <OpenHome/Net/CpDevice.h>
 #include <OpenHome/Net/CpDeviceUpnp.h>
-#include <OpenHome/Net/FunctorCpDevice.h>
+#include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
 #include <OpenHome/Net/CpOpenhomeOrgTestBasic1.h>
 #include <OpenHome/Net/CpProxy.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Globals.h>
 #include <OpenHome/Env.h>
 
 #include <stdlib.h>

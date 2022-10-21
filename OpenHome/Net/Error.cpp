@@ -1,4 +1,4 @@
-#include <OpenHome/Net/Private/Error.h>
+#include <OpenHome/Net/Error.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Standard.h>

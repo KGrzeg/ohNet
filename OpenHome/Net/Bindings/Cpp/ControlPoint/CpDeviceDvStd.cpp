@@ -1,8 +1,8 @@
 #include <OpenHome/Net/CpDeviceDv.h>
-#include <OpenHome/Net/Private/CpiDeviceDv.h>
-#include <OpenHome/Net/DvDevice.h>
-#include <OpenHome/Net/Private/DviDevice.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/CpiDeviceDv.h>
+#include <OpenHome/Net/Device/DvDevice.h>
+#include <OpenHome/Net/Device/DviDevice.h>
+#include <OpenHome/Net/Globals.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

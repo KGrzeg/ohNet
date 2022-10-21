@@ -2,7 +2,7 @@
 #define HEADER_PROXY_C_PRIVATE
 
 #include <OpenHome/Net/CpProxy.h>
-#include <OpenHome/Net/Private/CpiDevice.h>
+#include <OpenHome/Net/CpiDevice.h>
 #include <OpenHome/Net/CpDevice.h>
 
 namespace OpenHome {

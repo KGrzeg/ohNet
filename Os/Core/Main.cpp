@@ -1,5 +1,5 @@
 #include <OpenHome/Net/OhNet.h>
-#include <OpenHome/TestFramework.h>
+#include <OpenHome/TestFramework/TestFramework.h>
 #include <Os/Os.h>
 
 using namespace OpenHome;

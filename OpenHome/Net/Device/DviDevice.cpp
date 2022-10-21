@@ -1,12 +1,12 @@
-#include <OpenHome/Net/Private/DviDevice.h>
+#include <OpenHome/Net/Device/DviDevice.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Exception.h>
 #include <OpenHome/Parser.h>
 #include <OpenHome/Printer.h>
-#include <OpenHome/Net/Private/DviStack.h>
-#include <OpenHome/Net/Private/DviProviderSubscriptionLongPoll.h>
-#include <OpenHome/Net/Private/DviProtocolUpnp.h> // for DviProtocolUpnp ctor only
+#include <OpenHome/Net/Device/DviStack.h>
+#include <OpenHome/Net/Device/Upnp/DviProviderSubscriptionLongPoll.h>
+#include <OpenHome/Net/Device/Upnp/DviProtocolUpnp.h> // for DviProtocolUpnp ctor only
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

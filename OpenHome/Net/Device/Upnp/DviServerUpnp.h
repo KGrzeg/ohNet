@@ -5,13 +5,13 @@
 #include <OpenHome/Network.h>
 #include <OpenHome/Http.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/Private/DviDevice.h>
+#include <OpenHome/Net/Device/DviDevice.h>
 #include <OpenHome/Stream.h>
-#include <OpenHome/Net/Private/DviService.h>
-#include <OpenHome/Net/Private/Subscription.h>
-#include <OpenHome/Net/Private/Service.h>
-#include <OpenHome/Net/Private/DviServer.h>
-#include <OpenHome/Net/Private/DviSubscription.h>
+#include <OpenHome/Net/Device/DviService.h>
+#include <OpenHome/Net/Subscription.h>
+#include <OpenHome/Net/Service.h>
+#include <OpenHome/Net/Device/DviServer.h>
+#include <OpenHome/Net/Device/DviSubscription.h>
 
 #include <vector>
 #include <map>

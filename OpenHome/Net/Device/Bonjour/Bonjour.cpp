@@ -1,4 +1,4 @@
-#include <OpenHome/Net/Private/Bonjour.h>
+#include <OpenHome/Net/Device/Bonjour/Bonjour.h>
 #include <OpenHome/Types.h>
 
 using namespace OpenHome;

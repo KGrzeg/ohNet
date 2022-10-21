@@ -3,13 +3,13 @@
 
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/Private/CpiService.h>
+#include <OpenHome/Net/CpiService.h>
 #include <OpenHome/Timer.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Fifo.h>
 #include <OpenHome/Ascii.h>
 #include <OpenHome/Standard.h>
-#include <OpenHome/Net/Private/EventUpnp.h>
+#include <OpenHome/Net/EventUpnp.h>
 #include <OpenHome/Functor.h>
 #include <OpenHome/Net/CpProxy.h> // for IEventProcessor
 #include <OpenHome/Net/OhNet.h>

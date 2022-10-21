@@ -2,7 +2,7 @@
 #include <OpenHome/Debug.h>
 #include <Os/OsWrapper.h>
 #include <exception>
-#include <OpenHome/Net/Private/Globals.h> // FIXME - use of globals should be discouraged
+#include <OpenHome/Net/Globals.h> // FIXME - use of globals should be discouraged
 #include <OpenHome/Env.h>
 
 #include <algorithm>

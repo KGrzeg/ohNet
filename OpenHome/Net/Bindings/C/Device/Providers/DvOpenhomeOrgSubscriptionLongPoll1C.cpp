@@ -2,14 +2,14 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/Bindings/C/DviDeviceC.h>
-#include <OpenHome/Net/DvProvider.h>
+#include <OpenHome/Net/Device/DvProvider.h>
 #include <OpenHome/Net/Bindings/C/OhNet.h>
-#include <OpenHome/Net/DvInvocationResponse.h>
-#include <OpenHome/Net/Private/Service.h>
-#include <OpenHome/Net/Private/FunctorDviInvocation.h>
+#include <OpenHome/Net/Device/DvInvocationResponse.h>
+#include <OpenHome/Net/Service.h>
+#include <OpenHome/Net/Device/FunctorDviInvocation.h>
 #include <OpenHome/Net/Bindings/C/DvInvocation.h>
 #include <OpenHome/Net/Bindings/C/DvInvocationPrivate.h>
-#include <OpenHome/Net/Private/DviStack.h>
+#include <OpenHome/Net/Device/DviStack.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

@@ -2,17 +2,17 @@
 // Looks suspiciously similar to TestSsdpUListen for now...
 //
 
-#include <OpenHome/TestFramework.h>
-#include <OpenHome/OptionParser.h>
+#include <OpenHome/TestFramework/TestFramework.h>
+#include <OpenHome/TestFramework/OptionParser.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Private/Discovery.h>
+#include <OpenHome/Net/Discovery.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Timer.h>
 #include <Os/OsWrapper.h>
 #include <OpenHome/Net/CpDeviceUpnp.h>
-#include <OpenHome/Net/FunctorCpDevice.h>
+#include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
 #include <OpenHome/Env.h>
-#include <OpenHome/Net/Private/CpiStack.h>
+#include <OpenHome/Net/ControlPoint/CpiStack.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

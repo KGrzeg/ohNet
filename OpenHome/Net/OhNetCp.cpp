@@ -1,6 +1,6 @@
 #include <OpenHome/Net/OhNet.h>
-#include <OpenHome/Net/Private/CpiStack.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/ControlPoint/CpiStack.h>
+#include <OpenHome/Net/Globals.h>
 #include <OpenHome/NetworkAdapterList.h>
 
 using namespace OpenHome;

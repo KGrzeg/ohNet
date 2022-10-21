@@ -4,8 +4,8 @@
 #include <OpenHome/Network.h>
 #include <OpenHome/Stream.h>
 #include <OpenHome/Http.h>
-#include <OpenHome/Net/Private/ProtocolUpnp.h>
-#include <OpenHome/Net/Private/Subscription.h>
+#include <OpenHome/Net/ProtocolUpnp.h>
+#include <OpenHome/Net/Subscription.h>
 
 namespace OpenHome {
 namespace Net {

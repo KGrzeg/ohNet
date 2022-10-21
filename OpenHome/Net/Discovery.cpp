@@ -1,5 +1,5 @@
-#include <OpenHome/Net/Private/Discovery.h>
-#include <OpenHome/Net/Private/Ssdp.h>
+#include <OpenHome/Net/Discovery.h>
+#include <OpenHome/Net/Ssdp.h>
 #include <OpenHome/Debug.h>
 #include <OpenHome/Env.h>
 #include <OpenHome/Net/OhNet.h>

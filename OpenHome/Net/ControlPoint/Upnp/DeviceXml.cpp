@@ -1,11 +1,11 @@
-#include <OpenHome/Net/Private/DeviceXml.h>
+#include <OpenHome/Net/DeviceXml.h>
 #include <OpenHome/Debug.h>
-#include <OpenHome/Net/Private/XmlParser.h>
+#include <OpenHome/Net/XmlParser.h>
 #include <OpenHome/Parser.h>
-#include <OpenHome/Net/Private/Error.h>
+#include <OpenHome/Net/Error.h>
 #include <OpenHome/Converter.h>
 #include <OpenHome/Env.h>
-#include <OpenHome/Net/Private/Ssdp.h>
+#include <OpenHome/Net/Ssdp.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

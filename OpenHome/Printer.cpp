@@ -1,7 +1,7 @@
 #include <OpenHome/Printer.h>
 #include <Os/OsWrapper.h>
 #include <OpenHome/Timer.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Globals.h>
 
 #include <stdarg.h>
 #include <stdio.h>

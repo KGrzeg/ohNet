@@ -1,5 +1,5 @@
-#include <OpenHome/TestFramework.h>
-#include <OpenHome/Net/Private/XmlParser.h>
+#include <OpenHome/TestFramework/TestFramework.h>
+#include <OpenHome/Net/XmlParser.h>
 
 using namespace OpenHome;
 using namespace OpenHome::TestFramework;

@@ -10,10 +10,10 @@
 #include <OpenHome/FunctorMsg.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/OhNet.h>
-#include <OpenHome/Net/DvProvider.h>
-#include <OpenHome/Net/DvResourceWriter.h>
-#include <OpenHome/Net/DvServerUpnp.h>
-#include <OpenHome/Net/DvInvocationResponse.h>
-#include <OpenHome/Net/DvDevice.h>
+#include <OpenHome/Net/Device/DvProvider.h>
+#include <OpenHome/Net/Device/DvResourceWriter.h>
+#include <OpenHome/Net/Device/DvServerUpnp.h>
+#include <OpenHome/Net/Device/DvInvocationResponse.h>
+#include <OpenHome/Net/Device/DvDevice.h>
 
 #endif // HEADER_OHNET_DEVICE_CORE

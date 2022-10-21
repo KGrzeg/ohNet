@@ -1,11 +1,11 @@
-#include <OpenHome/TestFramework.h>
+#include <OpenHome/TestFramework/TestFramework.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/DvDevice.h>
+#include <OpenHome/Net/Device/DvDevice.h>
 #include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Net/CpDeviceDv.h>
 #include "../../Device/Tests/TestBasicDv.h"
 #include "TestBasicCp.h"
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Globals.h>
 
 #include <string>
 #include <vector>

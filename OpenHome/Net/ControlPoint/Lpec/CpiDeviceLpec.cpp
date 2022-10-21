@@ -1,21 +1,21 @@
-#include <OpenHome/Net/Private/CpiDeviceLpec.h>
-#include <OpenHome/Net/Private/CpiDevice.h>
+#include <OpenHome/Net/CpiDeviceLpec.h>
+#include <OpenHome/Net/CpiDevice.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Net/Private/CpiService.h>
+#include <OpenHome/Net/CpiService.h>
 #include <OpenHome/Network.h>
 #include <OpenHome/Standard.h>
 #include <OpenHome/Stream.h>
 #include <OpenHome/Thread.h>
-#include <OpenHome/Net/Private/DviServerLpec.h> // for Lpec class of constants only
+#include <OpenHome/Net/Device/DviServerLpec.h> // for Lpec class of constants only
 #include <OpenHome/Exception.h>
 #include <OpenHome/Ascii.h>
 #include <OpenHome/Parser.h>
 #include <OpenHome/Debug.h>
 #include <OpenHome/Converter.h>
-#include <OpenHome/Net/Private/CpiStack.h>
-#include <OpenHome/Net/Private/CpiSubscription.h>
+#include <OpenHome/Net/ControlPoint/CpiStack.h>
+#include <OpenHome/Net/CpiSubscription.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

@@ -3,8 +3,8 @@
 
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/DvDevice.h>
-#include <OpenHome/Net/DvProvider.h>
+#include <OpenHome/Net/Device/DvDevice.h>
+#include <OpenHome/Net/Device/DvProvider.h>
 
 namespace OpenHome {
 namespace Net {

@@ -1,13 +1,13 @@
 #ifndef HEADER_CP_DEVICE_SOCKET
 #define HEADER_CP_DEVICE_SOCKET
 
-#include <OpenHome/Net/Private/CpiDevice.h>
+#include <OpenHome/Net/CpiDevice.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/Private/DviService.h>
-#include <OpenHome/Net/Private/DviSubscription.h>
-#include <OpenHome/Net/Private/Service.h>
-#include <OpenHome/Net/Private/CpiService.h>
+#include <OpenHome/Net/Device/DviService.h>
+#include <OpenHome/Net/Device/DviSubscription.h>
+#include <OpenHome/Net/Service.h>
+#include <OpenHome/Net/CpiService.h>
 
 namespace OpenHome {
 class Uri;

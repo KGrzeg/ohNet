@@ -3,9 +3,9 @@
 
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/DvDevice.h>
-#include <OpenHome/Net/DvProvider.h>
-#include <OpenHome/Net/DvInvocation.h>
+#include <OpenHome/Net/Device/DvDevice.h>
+#include <OpenHome/Net/Device/DvProvider.h>
+#include <OpenHome/Net/Bindings/C/Device/DvInvocation.h>
 
 #include <string>
 

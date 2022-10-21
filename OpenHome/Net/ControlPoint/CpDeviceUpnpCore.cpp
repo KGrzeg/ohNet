@@ -1,9 +1,9 @@
 #include <OpenHome/Net/CpDeviceUpnp.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/Private/CpiDeviceUpnp.h>
-#include <OpenHome/Net/FunctorCpDevice.h>
-#include <OpenHome/Net/Private/FunctorCpiDevice.h>
+#include <OpenHome/Net/CpiDeviceUpnp.h>
+#include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
+#include <OpenHome/Net/ControlPoint/FunctorCpiDevice.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

@@ -1,11 +1,11 @@
-#include <OpenHome/Net/Private/CpiDevice.h>
+#include <OpenHome/Net/CpiDevice.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Debug.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Env.h>
-#include <OpenHome/Net/Private/CpiStack.h>
+#include <OpenHome/Net/ControlPoint/CpiStack.h>
 #include <Os/OsWrapper.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Globals.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

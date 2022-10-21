@@ -1,6 +1,6 @@
-#include <OpenHome/Net/Private/XmlFetcher.h>
+#include <OpenHome/Net/XmlFetcher.h>
 #include <OpenHome/Env.h>
-#include <OpenHome/Net/Private/CpiStack.h>
+#include <OpenHome/Net/ControlPoint/CpiStack.h>
 #include <OpenHome/Stream.h>
 #include <OpenHome/Http.h>
 #include <OpenHome/Exception.h>

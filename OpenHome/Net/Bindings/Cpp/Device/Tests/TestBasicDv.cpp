@@ -1,13 +1,13 @@
 #include "TestBasicDv.h"
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/DvDevice.h>
-#include <OpenHome/Net/DvOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Net/Device/DvDevice.h>
+#include <OpenHome/Net/Device/DvOpenhomeOrgTestBasic1.h>
 #include <OpenHome/Ascii.h>
 #include <OpenHome/Env.h>
-#include <OpenHome/Net/Private/DviStack.h>
+#include <OpenHome/Net/Device/DviStack.h>
 #include <OpenHome/NetworkAdapterList.h>
-#include <OpenHome/Net/Private/Globals.h>
-#include <OpenHome/TestFramework.h>
+#include <OpenHome/Net/Globals.h>
+#include <OpenHome/TestFramework/TestFramework.h>
 
 #include <string>
 

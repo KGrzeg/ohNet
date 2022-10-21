@@ -1,22 +1,22 @@
-#include <OpenHome/Net/Private/CpiSubscription.h>
+#include <OpenHome/Net/CpiSubscription.h>
 #include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Stream.h>
 #include <OpenHome/Http.h>
 #include <OpenHome/Uri.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Private/CpiDevice.h>
+#include <OpenHome/Net/CpiDevice.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Timer.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Fifo.h>
 #include <OpenHome/Debug.h>
 #include <OpenHome/Env.h>
-#include <OpenHome/Net/Private/CpiStack.h>
-#include <OpenHome/Net/Private/XmlParser.h>
+#include <OpenHome/Net/ControlPoint/CpiStack.h>
+#include <OpenHome/Net/XmlParser.h>
 #include <OpenHome/NetworkAdapterList.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Globals.h>
 #include <Os/OsWrapper.h>
-#include <OpenHome/Net/Private/DviSubscription.h> // for DvSubscriptionError
+#include <OpenHome/Net/Device/DviSubscription.h> // for DvSubscriptionError
 #include <OpenHome/TIpAddressUtils.h>
 
 #include <list>

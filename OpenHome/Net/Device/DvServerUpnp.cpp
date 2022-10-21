@@ -1,7 +1,7 @@
-#include <OpenHome/Net/DvServerUpnp.h>
-#include <OpenHome/Net/DvDevice.h>
-#include <OpenHome/Net/Private/DviDevice.h>
-#include <OpenHome/Net/Private/DviServerUpnp.h>
+#include <OpenHome/Net/Device/DvServerUpnp.h>
+#include <OpenHome/Net/Device/DvDevice.h>
+#include <OpenHome/Net/Device/DviDevice.h>
+#include <OpenHome/Net/Device/Upnp/DviServerUpnp.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

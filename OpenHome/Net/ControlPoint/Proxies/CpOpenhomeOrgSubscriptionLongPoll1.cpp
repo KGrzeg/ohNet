@@ -1,11 +1,11 @@
 #include "CpOpenhomeOrgSubscriptionLongPoll1.h"
 #include <OpenHome/Net/CpProxy.h>
-#include <OpenHome/Net/Private/CpiService.h>
+#include <OpenHome/Net/CpiService.h>
 #include <OpenHome/Thread.h>
-#include <OpenHome/Net/Private/AsyncPrivate.h>
+#include <OpenHome/Net/AsyncPrivate.h>
 #include <OpenHome/Net/CpDevice.h>
-#include <OpenHome/Net/Private/Error.h>
-#include <OpenHome/Net/Private/CpiDevice.h>
+#include <OpenHome/Net/Error.h>
+#include <OpenHome/Net/CpiDevice.h>
 
 namespace OpenHome {
 namespace Net {

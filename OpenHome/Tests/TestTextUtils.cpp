@@ -1,9 +1,9 @@
-#include <OpenHome/TestFramework.h>
+#include <OpenHome/TestFramework/TestFramework.h>
 #include <OpenHome/Ascii.h>
 #include <OpenHome/Parser.h>
 #include <OpenHome/Uri.h>
 #include <OpenHome/Converter.h>
-#include <OpenHome/Os.h>
+#include <Os/Os.h>
 
 #include <limits>
 

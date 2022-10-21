@@ -1,10 +1,10 @@
-#include <OpenHome/Net/DvProvider.h>
+#include <OpenHome/Net/Device/DvProvider.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/Private/DviDevice.h>
+#include <OpenHome/Net/Device/DviDevice.h>
 #include <OpenHome/Printer.h>
 #include <OpenHome/Env.h>
-#include <OpenHome/Net/Private/DviStack.h>
+#include <OpenHome/Net/Device/DviStack.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

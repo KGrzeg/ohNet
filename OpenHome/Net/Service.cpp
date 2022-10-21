@@ -1,8 +1,8 @@
-#include <OpenHome/Net/Private/Service.h>
+#include <OpenHome/Net/Service.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Ascii.h>
-#include <OpenHome/Net/Private/Ssdp.h>
+#include <OpenHome/Net/Ssdp.h>
 #include <OpenHome/Env.h>
 #include <OpenHome/Thread.h>
 

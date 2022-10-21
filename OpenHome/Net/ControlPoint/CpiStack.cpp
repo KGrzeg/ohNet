@@ -1,9 +1,9 @@
-#include <OpenHome/Net/Private/CpiStack.h>
+#include <OpenHome/Net/ControlPoint/CpiStack.h>
 #include <OpenHome/Env.h>
-#include <OpenHome/Net/Private/CpiService.h>
-#include <OpenHome/Net/Private/XmlFetcher.h>
-#include <OpenHome/Net/Private/CpiSubscription.h>
-#include <OpenHome/Net/Private/CpiDevice.h>
+#include <OpenHome/Net/CpiService.h>
+#include <OpenHome/Net/XmlFetcher.h>
+#include <OpenHome/Net/CpiSubscription.h>
+#include <OpenHome/Net/CpiDevice.h>
 #include <OpenHome/Printer.h>
 
 using namespace OpenHome;

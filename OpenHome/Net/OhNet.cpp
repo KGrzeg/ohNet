@@ -5,7 +5,7 @@
 #include <OpenHome/NetworkAdapterList.h>
 #include <OpenHome/Debug.h>
 #include <OpenHome/Network.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Globals.h>
 #include <Os/OsWrapper.h>
 #include <OpenHome/TIpAddressUtils.h>
 

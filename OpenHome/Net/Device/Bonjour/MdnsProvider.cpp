@@ -1,4 +1,4 @@
-#include <OpenHome/Net/Private/MdnsProvider.h>
+#include <OpenHome/Net/Device/Bonjour/MdnsProvider.h>
 #include <OpenHome/Types.h>
 
 using namespace OpenHome;

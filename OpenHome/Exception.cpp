@@ -4,7 +4,7 @@
 #include <OpenHome/Env.h>
 #include <OpenHome/Net/OhNet.h>
 #include <Os/OsWrapper.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Globals.h>
 #include <OpenHome/Printer.h>
 
 #include <stdio.h>

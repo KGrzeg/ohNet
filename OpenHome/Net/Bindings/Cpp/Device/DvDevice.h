@@ -3,8 +3,8 @@
 
 #include <OpenHome/OsTypes.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Net/DvResourceWriter.h>
-#include <OpenHome/Net/DvDevice.h>
+#include <OpenHome/Net/Device/DvResourceWriter.h>
+#include <OpenHome/Net/Device/DvDevice.h>
 
 #include <string>
 

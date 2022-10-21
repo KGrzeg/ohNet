@@ -5,9 +5,9 @@
 #include <OpenHome/Shell/ShellCommandDebug.h>
 #include <OpenHome/Shell/ShellCommandQuit.h>
 #include <OpenHome/Shell/ShellCommandWatchDog.h>
-#include <OpenHome/TestFramework.h>
-#include <OpenHome/Net/Private/CpiStack.h>
-#include <OpenHome/Net/Private/DviStack.h>
+#include <OpenHome/TestFramework/TestFramework.h>
+#include <OpenHome/Net/ControlPoint/CpiStack.h>
+#include <OpenHome/Net/Device/DviStack.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

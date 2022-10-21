@@ -1,5 +1,5 @@
 #include <OpenHome/Net/CpProxy.h>
-#include <OpenHome/Net/Private/CpiService.h>
+#include <OpenHome/Net/CpiService.h>
 #include <OpenHome/Thread.h>
 
 using namespace OpenHome;

@@ -1,7 +1,7 @@
 #include <memory>
 #include <OpenHome/Standard.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/TestFramework.h>
+#include <OpenHome/TestFramework/TestFramework.h>
 #include <OpenHome/Arch.h>
 
 #include <string>

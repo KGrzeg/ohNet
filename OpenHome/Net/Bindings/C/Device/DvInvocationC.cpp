@@ -1,6 +1,6 @@
 #include <OpenHome/Net/Bindings/C/DvInvocationPrivate.h>
 #include <OpenHome/Net/Bindings/C/DvInvocation.h>
-#include <OpenHome/Net/Private/DviService.h>
+#include <OpenHome/Net/Device/DviService.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

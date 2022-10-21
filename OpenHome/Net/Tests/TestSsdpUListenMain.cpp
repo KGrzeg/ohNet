@@ -1,6 +1,6 @@
 #include <OpenHome/Types.h>
-#include <OpenHome/TestFramework.h>
-#include <OpenHome/OptionParser.h>
+#include <OpenHome/TestFramework/TestFramework.h>
+#include <OpenHome/TestFramework/OptionParser.h>
 #include <OpenHome/Net/OhNet.h>
 
 #include <vector>

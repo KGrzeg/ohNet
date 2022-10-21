@@ -1,9 +1,9 @@
 #ifndef HEADER_MDNSPROVIDER
 #define HEADER_MDNSPROVIDER
 
-#include <OpenHome/Net/Private/Bonjour.h>
+#include <OpenHome/Net/Device/Bonjour/Bonjour.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Private/MdnsPlatform.h>
+#include <OpenHome/Net/Device/Bonjour/MdnsPlatform.h>
 
 namespace OpenHome {
 

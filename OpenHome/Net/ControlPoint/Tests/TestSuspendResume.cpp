@@ -1,11 +1,11 @@
-#include <OpenHome/TestFramework.h>
-#include <OpenHome/OptionParser.h>
+#include <OpenHome/TestFramework/TestFramework.h>
+#include <OpenHome/TestFramework/OptionParser.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Debug.h>
 #include <Os/OsWrapper.h>
 #include <OpenHome/Net/CpDeviceUpnp.h>
-#include <OpenHome/Net/FunctorCpDevice.h>
+#include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
 #include <OpenHome/Net/CpAvOpenhomeOrgProduct1.h>
 #include <OpenHome/Net/CpAvOpenhomeOrgSender1.h>
 

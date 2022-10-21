@@ -1,5 +1,5 @@
 #include <OpenHome/Net/CpDevice.h>
-#include <OpenHome/Net/Private/CpiDevice.h>
+#include <OpenHome/Net/CpiDevice.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Printer.h>
 

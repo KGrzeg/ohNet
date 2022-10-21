@@ -1,6 +1,6 @@
 #include <OpenHome/Net/OhNet.h>
-#include <OpenHome/Net/Private/DviStack.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Device/DviStack.h>
+#include <OpenHome/Net/Globals.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

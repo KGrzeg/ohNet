@@ -1,5 +1,5 @@
 #include "SuiteUnitTest.h"
-#include <OpenHome/TestFramework.h>
+#include <OpenHome/TestFramework/TestFramework.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Functor.h>
 

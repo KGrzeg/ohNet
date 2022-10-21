@@ -11,10 +11,10 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Thread.h>
-#include <OpenHome/Net/Private/Discovery.h>
+#include <OpenHome/Net/Discovery.h>
 #include <OpenHome/Timer.h>
-#include <OpenHome/Net/Private/FunctorCpiDevice.h>
-#include <OpenHome/Net/Private/Service.h>
+#include <OpenHome/Net/ControlPoint/FunctorCpiDevice.h>
+#include <OpenHome/Net/Service.h>
 #include <OpenHome/Net/OhNet.h>
 
 #include <vector>

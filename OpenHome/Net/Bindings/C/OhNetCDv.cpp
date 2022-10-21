@@ -1,8 +1,8 @@
 #include <OpenHome/Net/Bindings/C/OhNet.h>
 #include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Network.h>
-#include <OpenHome/Net/Private/Globals.h>
-#include <OpenHome/Net/Private/DviStack.h>
+#include <OpenHome/Net/Globals.h>
+#include <OpenHome/Net/Device/DviStack.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

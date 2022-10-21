@@ -3,7 +3,7 @@
 
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/Private/DviDevice.h>
+#include <OpenHome/Net/Device/DviDevice.h>
 
 namespace OpenHome {
     class NetworkAdapter;

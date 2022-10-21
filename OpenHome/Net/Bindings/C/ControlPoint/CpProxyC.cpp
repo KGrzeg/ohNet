@@ -2,7 +2,7 @@
 #include <OpenHome/Net/Bindings/C/OhNet.h>
 #include <OpenHome/Net/CpProxy.h>
 #include "CpProxyCPrivate.h"
-#include <OpenHome/Net/Private/CpiDevice.h>
+#include <OpenHome/Net/CpiDevice.h>
 #include <OpenHome/Net/Bindings/C/CpDevice.h>
 #include <OpenHome/Printer.h>
 

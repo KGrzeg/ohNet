@@ -3,17 +3,17 @@
 // ... then checks how many times we can (un)subscribe (to changes in the
 //     service's state variables) on each device in a second
 
-#include <OpenHome/TestFramework.h>
+#include <OpenHome/TestFramework/TestFramework.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Private/Discovery.h>
+#include <OpenHome/Net/Discovery.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Timer.h>
 #include <OpenHome/Net/CpDevice.h>
 #include <OpenHome/Net/CpDeviceUpnp.h>
 #include <OpenHome/Env.h>
-#include <OpenHome/Net/Private/CpiStack.h>
+#include <OpenHome/Net/ControlPoint/CpiStack.h>
 #include <Os/OsWrapper.h>
-#include <OpenHome/Net/FunctorCpDevice.h>
+#include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
 #include <OpenHome/Net/CpUpnpOrgConnectionManager1.h>
 
 #include <vector>

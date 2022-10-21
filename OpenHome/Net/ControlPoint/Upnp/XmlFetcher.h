@@ -5,7 +5,7 @@
 #ifndef HEADER_XML_FETCHER
 #define HEADER_XML_FETCHER
 
-#include <OpenHome/Net/Private/AsyncPrivate.h>
+#include <OpenHome/Net/AsyncPrivate.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Uri.h>
 #include <OpenHome/Types.h>
@@ -13,7 +13,7 @@
 #include <OpenHome/Network.h>
 #include <OpenHome/Stream.h>
 #include <OpenHome/Http.h>
-#include <OpenHome/Net/Private/Error.h>
+#include <OpenHome/Net/Error.h>
 #include <OpenHome/Exception.h>
 
 #include <list>

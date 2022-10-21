@@ -3,11 +3,11 @@
  * Placed in a separate file to encourage the linker to drop dv code for cp builds
  */
 
-#include <OpenHome/Net/Private/Ssdp.h>
+#include <OpenHome/Net/Ssdp.h>
 #include <OpenHome/Http.h>
 #include <OpenHome/Ascii.h>
 #include <OpenHome/Stream.h>
-#include <OpenHome/Net/Private/DviStack.h>
+#include <OpenHome/Net/Device/DviStack.h>
 #include <OpenHome/Env.h>
 
 using namespace OpenHome;

@@ -1,10 +1,10 @@
-#include <OpenHome/Net/DvDevice.h>
+#include <OpenHome/Net/Device/DvDevice.h>
 #include <OpenHome/OsTypes.h>
-#include <OpenHome/Net/Private/DviDevice.h>
-#include <OpenHome/Net/DvDevice.h>
+#include <OpenHome/Net/Device/DviDevice.h>
+#include <OpenHome/Net/Device/DvDevice.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Printer.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Globals.h>
 
 #include <string>
 

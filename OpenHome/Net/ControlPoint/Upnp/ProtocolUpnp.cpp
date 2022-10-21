@@ -1,13 +1,13 @@
-#include <OpenHome/Net/Private/ProtocolUpnp.h>
+#include <OpenHome/Net/ProtocolUpnp.h>
 #include <OpenHome/Debug.h>
-#include <OpenHome/Net/Private/XmlParser.h>
+#include <OpenHome/Net/XmlParser.h>
 #include <OpenHome/Parser.h>
-#include <OpenHome/Net/Private/Error.h>
+#include <OpenHome/Net/Error.h>
 #include <OpenHome/Converter.h>
 #include <OpenHome/Env.h>
-#include <OpenHome/Net/Private/CpiStack.h>
-#include <OpenHome/Net/Private/CpiSubscription.h>
-#include <OpenHome/Net/Private/Subscription.h>
+#include <OpenHome/Net/ControlPoint/CpiStack.h>
+#include <OpenHome/Net/CpiSubscription.h>
+#include <OpenHome/Net/Subscription.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

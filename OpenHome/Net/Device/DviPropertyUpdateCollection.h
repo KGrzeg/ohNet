@@ -4,7 +4,7 @@
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Exception.h>
-#include <OpenHome/Net/Private/DviSubscription.h>
+#include <OpenHome/Net/Device/DviSubscription.h>
 
 #include <map>
 

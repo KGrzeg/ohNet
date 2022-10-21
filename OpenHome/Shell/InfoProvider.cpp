@@ -1,4 +1,4 @@
-#include <OpenHome/InfoProvider.h>
+#include <OpenHome/Shell/InfoProvider.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Stream.h>

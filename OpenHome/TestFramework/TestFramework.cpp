@@ -1,4 +1,4 @@
-#include <OpenHome/TestFramework.h>
+#include <OpenHome/TestFramework/TestFramework.h>
 #include <assert.h>
 #include <stdarg.h>
 #include <stdio.h>
@@ -7,7 +7,7 @@
 #include <Os/OsWrapper.h>
 #include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Debug.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Globals.h>
 #include <OpenHome/Env.h>
 #include <OpenHome/Ascii.h>
 #include <OpenHome/NetworkAdapterList.h>

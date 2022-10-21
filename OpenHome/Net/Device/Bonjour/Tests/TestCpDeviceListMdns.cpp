@@ -1,8 +1,8 @@
 #include <OpenHome/Types.h>
-#include <OpenHome/TestFramework.h>
-#include <OpenHome/OptionParser.h>
+#include <OpenHome/TestFramework/TestFramework.h>
+#include <OpenHome/TestFramework/OptionParser.h>
 #include <OpenHome/Net/OhNet.h>
-#include <OpenHome/Net/Private/MdnsProvider.h>
+#include <OpenHome/Net/Device/Bonjour/MdnsProvider.h>
 
 #include <vector>
 

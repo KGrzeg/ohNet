@@ -1,11 +1,11 @@
 #include <OpenHome/Net/Bindings/C/Service.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Os.h>
+#include <Os/Os.h>
 #include <OpenHome/Net/Bindings/C/OhNet.h>
-#include <OpenHome/Net/Private/Service.h>
+#include <OpenHome/Net/Service.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Globals.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

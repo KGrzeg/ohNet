@@ -3,8 +3,8 @@
 
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/DvOpenhomeOrgSubscriptionLongPoll1.h>
-#include <OpenHome/Net/DvDevice.h>
+#include <OpenHome/Net/Device/DvOpenhomeOrgSubscriptionLongPoll1.h>
+#include <OpenHome/Net/Device/DvDevice.h>
 #include <OpenHome/Thread.h>
 
 #include <vector>

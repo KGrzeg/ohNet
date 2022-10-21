@@ -1,15 +1,15 @@
 // Equivalent to TestDeviceList but for C wrapper APIs
 //
 
-#include <OpenHome/TestFramework.h>
-#include <OpenHome/OptionParser.h>
+#include <OpenHome/TestFramework/TestFramework.h>
+#include <OpenHome/TestFramework/OptionParser.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Private/Discovery.h>
+#include <OpenHome/Net/Discovery.h>
 #include <OpenHome/Thread.h>
 #include <Os/OsWrapper.h>
 #include <OpenHome/Net/Bindings/C/CpDeviceUpnp.h>
 #include <OpenHome/Net/Bindings/C/OhNet.h>
-#include <OpenHome/Net/Private/Globals.h>
+#include <OpenHome/Net/Globals.h>
 
 #include <stdlib.h>
 #include <string.h>

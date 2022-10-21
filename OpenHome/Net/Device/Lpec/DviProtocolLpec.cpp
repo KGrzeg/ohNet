@@ -1,8 +1,8 @@
-#include <OpenHome/Net/Private/DviProtocolLpec.h>
+#include <OpenHome/Net/Device/Upnp/DviProtocolLpec.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/Private/DviDevice.h>
-#include <OpenHome/Net/Private/DviServerLpec.h>
+#include <OpenHome/Net/Device/DviDevice.h>
+#include <OpenHome/Net/Device/DviServerLpec.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

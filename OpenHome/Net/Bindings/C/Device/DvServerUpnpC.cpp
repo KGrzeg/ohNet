@@ -1,8 +1,8 @@
 #include <OpenHome/Net/Bindings/C/DvServerUpnp.h>
-#include <OpenHome/Net/DvServerUpnp.h>
+#include <OpenHome/Net/Device/DvServerUpnp.h>
 #include "DviDeviceC.h"
-#include <OpenHome/Net/Private/Globals.h>
-#include <OpenHome/Os.h>
+#include <OpenHome/Net/Globals.h>
+#include <Os/Os.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

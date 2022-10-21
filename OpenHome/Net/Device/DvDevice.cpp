@@ -1,7 +1,7 @@
-#include <OpenHome/Net/DvDevice.h>
+#include <OpenHome/Net/Device/DvDevice.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/Private/DviDevice.h>
+#include <OpenHome/Net/Device/DviDevice.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

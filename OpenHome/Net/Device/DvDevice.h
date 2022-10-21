@@ -4,7 +4,7 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Net/DvResourceWriter.h>
+#include <OpenHome/Net/Device/DvResourceWriter.h>
 #include <OpenHome/Net/OhNet.h>
 
 #include <vector>

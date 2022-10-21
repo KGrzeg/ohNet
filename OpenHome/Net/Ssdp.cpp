@@ -1,4 +1,4 @@
-#include <OpenHome/Net/Private/Ssdp.h>
+#include <OpenHome/Net/Ssdp.h>
 #include <OpenHome/Ascii.h>
 #include <OpenHome/Parser.h>
 #include <OpenHome/Printer.h>

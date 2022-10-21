@@ -1,9 +1,9 @@
-#include <OpenHome/Net/Private/AsyncPrivate.h>
+#include <OpenHome/Net/AsyncPrivate.h>
 #include <OpenHome/Net/FunctorAsync.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Net/CpProxy.h>
-#include <OpenHome/Net/Private/Error.h>
+#include <OpenHome/Net/Error.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

@@ -7,13 +7,13 @@
 #include <OpenHome/Timer.h>
 #include <OpenHome/Network.h>
 #include <OpenHome/Net/OhNet.h>
-#include <OpenHome/Net/Private/FunctorCpiDevice.h>
+#include <OpenHome/Net/ControlPoint/FunctorCpiDevice.h>
 
 // Bonjour source code available from  http://developer.apple.com/networking/bonjour/index.html
 // We take the mDNSCore folder from their source release and discard the rest
 
-#include <OpenHome/Net/Private/mDNSEmbeddedAPI.h>
-#include <OpenHome/Net/Private/dns_sd.h>
+#include <thirdparty/mDNSResponder-1310.80.1/mDNSCore/mDNSEmbeddedAPI.h>
+#include <thirdparty/mDNSResponder-1310.80.1/mDNSShared/dns_sd.h>
 
 #include <vector>
 #include <map>
