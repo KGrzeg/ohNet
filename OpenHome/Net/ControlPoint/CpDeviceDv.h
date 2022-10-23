@@ -1,7 +1,7 @@
 #ifndef HEADER_CPDEVICEDV
 #define HEADER_CPDEVICEDV
 
-#include <OpenHome/Net/CpDevice.h>
+#include <OpenHome/Net/ControlPoint/CpDevice.h>
 
 namespace OpenHome {
 namespace Net {

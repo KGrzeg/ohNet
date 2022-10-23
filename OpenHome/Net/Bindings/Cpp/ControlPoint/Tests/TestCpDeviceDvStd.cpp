@@ -2,7 +2,7 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Net/Device/DvDevice.h>
 #include <OpenHome/Net/OhNet.h>
-#include <OpenHome/Net/CpDeviceDv.h>
+#include <OpenHome/Net/ControlPoint/CpDeviceDv.h>
 #include "../../Device/Tests/TestBasicDv.h"
 #include "TestBasicCp.h"
 #include <OpenHome/Net/Globals.h>

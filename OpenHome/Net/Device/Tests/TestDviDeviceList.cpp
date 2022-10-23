@@ -7,8 +7,8 @@
 #include <OpenHome/Net/Device/DviService.h>
 #include <OpenHome/Env.h>
 #include <OpenHome/Net/Device/DviStack.h>
-#include <OpenHome/Net/CpDevice.h>
-#include <OpenHome/Net/CpDeviceUpnp.h>
+#include <OpenHome/Net/ControlPoint/CpDevice.h>
+#include <OpenHome/Net/ControlPoint/CpDeviceUpnp.h>
 #include <OpenHome/NetworkAdapterList.h>
 
 #include <stdlib.h>

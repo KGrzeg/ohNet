@@ -4,10 +4,10 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Net/Device/DvDevice.h>
 #include <OpenHome/Net/Device/DvOpenhomeOrgTestBasic1.h>
-#include <OpenHome/Net/CpOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Net/ControlPoint/CpOpenhomeOrgTestBasic1.h>
 #include <OpenHome/Net/OhNet.h>
-#include <OpenHome/Net/CpDevice.h>
-#include <OpenHome/Net/CpDeviceUpnp.h>
+#include <OpenHome/Net/ControlPoint/CpDevice.h>
+#include <OpenHome/Net/ControlPoint/CpDeviceUpnp.h>
 #include <OpenHome/Ascii.h>
 #include <OpenHome/Env.h>
 #include <OpenHome/Net/Device/DviStack.h>

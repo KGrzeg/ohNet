@@ -1,5 +1,5 @@
 #include <OpenHome/Net/EventUpnp.h>
-#include <OpenHome/Net/CpiSubscription.h>
+#include <OpenHome/Net/ControlPoint/CpiSubscription.h>
 #include <OpenHome/Http.h>
 #include <OpenHome/Net/ProtocolUpnp.h>
 #include <OpenHome/Buffer.h>
@@ -8,7 +8,7 @@
 #include <OpenHome/Net/ControlPoint/CpiStack.h>
 #include <OpenHome/Debug.h>
 #include <OpenHome/Net/XmlParser.h>
-#include <OpenHome/Net/CpProxy.h>
+#include <OpenHome/Net/ControlPoint/CpProxy.h>
 #include <OpenHome/Net/ProtocolUpnp.h>
 #include <OpenHome/Parser.h>
 

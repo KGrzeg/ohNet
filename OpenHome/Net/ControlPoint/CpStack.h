@@ -11,10 +11,10 @@
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Net/FunctorAsync.h>
-#include <OpenHome/Net/CpProxy.h>
-#include <OpenHome/Net/CpDevice.h>
-#include <OpenHome/Net/CpDeviceDv.h>
-#include <OpenHome/Net/CpDeviceUpnp.h>
+#include <OpenHome/Net/ControlPoint/CpProxy.h>
+#include <OpenHome/Net/ControlPoint/CpDevice.h>
+#include <OpenHome/Net/ControlPoint/CpDeviceDv.h>
+#include <OpenHome/Net/ControlPoint/CpDeviceUpnp.h>
 #include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
 
 #endif // HEADER_OHNET_CONTROLPOINT_CORE

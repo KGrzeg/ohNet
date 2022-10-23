@@ -7,7 +7,7 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Net/Ssdp.h>
-#include <OpenHome/Net/CpDeviceUpnp.h>
+#include <OpenHome/Net/ControlPoint/CpDeviceUpnp.h>
 #include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
 #include <OpenHome/Net/XmlParser.h>
 #include <OpenHome/Net/Globals.h>

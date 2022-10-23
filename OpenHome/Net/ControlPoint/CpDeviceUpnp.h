@@ -3,7 +3,7 @@
 
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/CpDevice.h>
+#include <OpenHome/Net/ControlPoint/CpDevice.h>
 #include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
 
 namespace OpenHome {

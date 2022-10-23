@@ -4,10 +4,10 @@
 */
 
 #include <OpenHome/Net/Bindings/C/OhNet.h>
-#include <OpenHome/Net/Bindings/C/CpDevice.h>
-#include <OpenHome/Net/Bindings/C/CpDeviceUpnp.h>
-#include <OpenHome/Net/Bindings/C/CpUpnpOrgConnectionManager1.h>
-#include <OpenHome/Net/Bindings/C/CpProxy.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpDeviceC.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpDeviceCUpnp.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpUpnpOrgConnectionManager1.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpProxy.h>
 #include <OpenHome/Net/Bindings/C/ControlPoint/Async.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/TestFramework/TestFramework.h>

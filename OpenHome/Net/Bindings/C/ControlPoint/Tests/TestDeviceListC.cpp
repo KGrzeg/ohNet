@@ -7,7 +7,7 @@
 #include <OpenHome/Net/Discovery.h>
 #include <OpenHome/Thread.h>
 #include <Os/OsWrapper.h>
-#include <OpenHome/Net/Bindings/C/CpDeviceUpnp.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpDeviceCUpnp.h>
 #include <OpenHome/Net/Bindings/C/OhNet.h>
 #include <OpenHome/Net/Globals.h>
 

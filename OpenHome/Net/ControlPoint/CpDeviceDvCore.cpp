@@ -1,5 +1,5 @@
-#include <OpenHome/Net/CpDeviceDv.h>
-#include <OpenHome/Net/CpiDeviceDv.h>
+#include <OpenHome/Net/ControlPoint/CpDeviceDv.h>
+#include <OpenHome/Net/ControlPoint/CpiDeviceDv.h>
 #include <OpenHome/Net/Device/DviDevice.h>
 
 using namespace OpenHome;

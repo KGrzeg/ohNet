@@ -1,7 +1,7 @@
-#include <OpenHome/Net/Bindings/C/CpDeviceDv.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpDeviceCDv.h>
 #include "../Device/DviDeviceC.h"
 #include <OpenHome/Net/Device/DvDevice.h>
-#include <OpenHome/Net/CpiDeviceDv.h>
+#include <OpenHome/Net/ControlPoint/CpiDeviceDv.h>
 #include <OpenHome/Net/Globals.h>
 
 using namespace OpenHome;

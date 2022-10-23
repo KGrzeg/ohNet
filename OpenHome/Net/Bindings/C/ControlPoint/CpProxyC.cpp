@@ -1,9 +1,9 @@
-#include <OpenHome/Net/Bindings/C/CpProxy.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpProxy.h>
 #include <OpenHome/Net/Bindings/C/OhNet.h>
-#include <OpenHome/Net/CpProxy.h>
+#include <OpenHome/Net/ControlPoint/CpProxy.h>
 #include "CpProxyCPrivate.h"
-#include <OpenHome/Net/CpiDevice.h>
-#include <OpenHome/Net/Bindings/C/CpDevice.h>
+#include <OpenHome/Net/ControlPoint/CpiDevice.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpDeviceC.h>
 #include <OpenHome/Printer.h>
 
 using namespace OpenHome;

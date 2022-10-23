@@ -1,4 +1,4 @@
-#include <OpenHome/Net/CpiDevice.h>
+#include <OpenHome/Net/ControlPoint/CpiDevice.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Debug.h>
 #include <OpenHome/Types.h>

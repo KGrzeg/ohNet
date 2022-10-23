@@ -1,17 +1,17 @@
 #include "CpAvOpenhomeOrgSender1.h"
-#include <OpenHome/Net/CpDevice.h>
-#include <OpenHome/Net/Bindings/C/CpProxyCPrivate.h>
+#include <OpenHome/Net/ControlPoint/CpDevice.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpProxyCPrivate.h>
 #include <OpenHome/Net/FunctorAsync.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Exception.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Net/CpProxy.h>
-#include <OpenHome/Net/CpiService.h>
+#include <OpenHome/Net/ControlPoint/CpProxy.h>
+#include <OpenHome/Net/ControlPoint/CpiService.h>
 #include <OpenHome/Thread.h>
-#include <OpenHome/Net/AsyncPrivate.h>
-#include <OpenHome/Net/CpDevice.h>
-#include <OpenHome/Net/CpiDevice.h>
+#include <OpenHome/Net/ControlPoint/AsyncPrivate.h>
+#include <OpenHome/Net/ControlPoint/CpDevice.h>
+#include <OpenHome/Net/ControlPoint/CpiDevice.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

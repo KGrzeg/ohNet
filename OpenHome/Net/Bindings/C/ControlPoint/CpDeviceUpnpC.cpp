@@ -1,7 +1,7 @@
-#include <OpenHome/Net/Bindings/C/CpDeviceUpnp.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpDeviceCUpnp.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/CpiDeviceUpnp.h>
+#include <OpenHome/Net/ControlPoint/CpiDeviceUpnp.h>
 #include <OpenHome/Net/ControlPoint/FunctorCpiDevice.h>
 #include <OpenHome/Net/Globals.h>
 

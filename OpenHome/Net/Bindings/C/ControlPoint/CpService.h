@@ -3,7 +3,7 @@
 
 #include <OpenHome/Defines.h>
 #include <OpenHome/OsTypes.h>
-#include <OpenHome/Net/Bindings/C/CpDevice.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpDeviceC.h>
 #include <OpenHome/Net/Bindings/C/Service.h>
 
 #ifdef __cplusplus

@@ -7,10 +7,10 @@
 #include <OpenHome/Net/Bindings/C/OhNet.h>
 #include <OpenHome/Net/Bindings/C/ControlPoint/Async.h>
 #include <OpenHome/Net/Bindings/C/Service.h>
-#include <OpenHome/Net/Bindings/C/CpService.h>
-#include <OpenHome/Net/Bindings/C/CpDevice.h>
-#include <OpenHome/Net/Bindings/C/CpDeviceDv.h>
-#include <OpenHome/Net/Bindings/C/CpDeviceUpnp.h>
-#include <OpenHome/Net/Bindings/C/CpProxy.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpService.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpDeviceC.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpDeviceCDv.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpDeviceCUpnp.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpProxy.h>
 
 #endif // HEADER_OHNET_CONTROLPOINT_C

@@ -6,7 +6,7 @@
 #include <OpenHome/Exception.h>
 #include <OpenHome/Functor.h>
 #include <OpenHome/Net/FunctorAsync.h>
-#include <OpenHome/Net/CpProxy.h>
+#include <OpenHome/Net/ControlPoint/CpProxy.h>
 
 namespace OpenHome {
 namespace Net {

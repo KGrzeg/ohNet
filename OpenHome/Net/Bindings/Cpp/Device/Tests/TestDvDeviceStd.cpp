@@ -2,8 +2,8 @@
 #include <OpenHome/TestFramework/OptionParser.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Net/OhNet.h>
-#include <OpenHome/Net/CpDevice.h>
-#include <OpenHome/Net/CpDeviceUpnp.h>
+#include <OpenHome/Net/ControlPoint/CpDevice.h>
+#include <OpenHome/Net/ControlPoint/CpDeviceUpnp.h>
 #include "TestBasicDv.h"
 #include "../../ControlPoint/Tests/TestBasicCp.h"
 #include <OpenHome/Net/Device/DvDevice.h>

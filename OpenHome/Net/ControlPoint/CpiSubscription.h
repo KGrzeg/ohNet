@@ -3,7 +3,7 @@
 
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/CpiService.h>
+#include <OpenHome/Net/ControlPoint/CpiService.h>
 #include <OpenHome/Timer.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Fifo.h>
@@ -11,7 +11,7 @@
 #include <OpenHome/Standard.h>
 #include <OpenHome/Net/EventUpnp.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Net/CpProxy.h> // for IEventProcessor
+#include <OpenHome/Net/ControlPoint/CpProxy.h> // for IEventProcessor
 #include <OpenHome/Net/OhNet.h>
 
 #include <list>

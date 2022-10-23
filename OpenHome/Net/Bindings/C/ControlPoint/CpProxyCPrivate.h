@@ -1,9 +1,9 @@
 #ifndef HEADER_PROXY_C_PRIVATE
 #define HEADER_PROXY_C_PRIVATE
 
-#include <OpenHome/Net/CpProxy.h>
-#include <OpenHome/Net/CpiDevice.h>
-#include <OpenHome/Net/CpDevice.h>
+#include <OpenHome/Net/ControlPoint/CpProxy.h>
+#include <OpenHome/Net/ControlPoint/CpiDevice.h>
+#include <OpenHome/Net/ControlPoint/CpDevice.h>
 
 namespace OpenHome {
 namespace Net {

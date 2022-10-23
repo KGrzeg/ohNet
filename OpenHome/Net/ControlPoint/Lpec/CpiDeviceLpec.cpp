@@ -1,9 +1,9 @@
-#include <OpenHome/Net/CpiDeviceLpec.h>
-#include <OpenHome/Net/CpiDevice.h>
+#include <OpenHome/Net/ControlPoint/CpiDeviceLpec.h>
+#include <OpenHome/Net/ControlPoint/CpiDevice.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Net/CpiService.h>
+#include <OpenHome/Net/ControlPoint/CpiService.h>
 #include <OpenHome/Network.h>
 #include <OpenHome/Standard.h>
 #include <OpenHome/Stream.h>
@@ -15,7 +15,7 @@
 #include <OpenHome/Debug.h>
 #include <OpenHome/Converter.h>
 #include <OpenHome/Net/ControlPoint/CpiStack.h>
-#include <OpenHome/Net/CpiSubscription.h>
+#include <OpenHome/Net/ControlPoint/CpiSubscription.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

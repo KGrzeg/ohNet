@@ -1,6 +1,6 @@
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/CpOpenhomeOrgTestBasic1.h>
-#include <OpenHome/Net/CpDevice.h>
+#include <OpenHome/Net/ControlPoint/CpOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Net/ControlPoint/CpDevice.h>
 #include "TestBasicCp.h"
 #include <OpenHome/TestFramework/TestFramework.h>
 

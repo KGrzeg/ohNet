@@ -7,13 +7,13 @@
 #include <OpenHome/Net/Discovery.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Timer.h>
-#include <OpenHome/Net/CpDevice.h>
-#include <OpenHome/Net/CpDeviceUpnp.h>
+#include <OpenHome/Net/ControlPoint/CpDevice.h>
+#include <OpenHome/Net/ControlPoint/CpDeviceUpnp.h>
 #include <OpenHome/Env.h>
 #include <OpenHome/Net/ControlPoint/CpiStack.h>
 #include <Os/OsWrapper.h>
 #include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
-#include <OpenHome/Net/CpUpnpOrgConnectionManager1.h>
+#include <OpenHome/Net/ControlPoint/CpUpnpOrgConnectionManager1.h>
 
 #include <vector>
 

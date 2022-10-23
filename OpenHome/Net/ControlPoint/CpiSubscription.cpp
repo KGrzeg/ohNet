@@ -1,10 +1,10 @@
-#include <OpenHome/Net/CpiSubscription.h>
+#include <OpenHome/Net/ControlPoint/CpiSubscription.h>
 #include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Stream.h>
 #include <OpenHome/Http.h>
 #include <OpenHome/Uri.h>
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/CpiDevice.h>
+#include <OpenHome/Net/ControlPoint/CpiDevice.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Timer.h>
 #include <OpenHome/Thread.h>

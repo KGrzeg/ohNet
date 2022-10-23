@@ -4,10 +4,10 @@
 #include <OpenHome/Thread.h>
 #include <OpenHome/Debug.h>
 #include <Os/OsWrapper.h>
-#include <OpenHome/Net/CpDeviceUpnp.h>
+#include <OpenHome/Net/ControlPoint/CpDeviceUpnp.h>
 #include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
-#include <OpenHome/Net/CpAvOpenhomeOrgProduct1.h>
-#include <OpenHome/Net/CpAvOpenhomeOrgSender1.h>
+#include <OpenHome/Net/ControlPoint/CpAvOpenhomeOrgProduct1.h>
+#include <OpenHome/Net/ControlPoint/CpAvOpenhomeOrgSender1.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

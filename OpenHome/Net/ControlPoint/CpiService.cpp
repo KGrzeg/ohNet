@@ -1,13 +1,13 @@
-#include <OpenHome/Net/CpiService.h>
+#include <OpenHome/Net/ControlPoint/CpiService.h>
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
-#include <OpenHome/Net/CpiDevice.h>
+#include <OpenHome/Net/ControlPoint/CpiDevice.h>
 #include <OpenHome/Env.h>
 #include <OpenHome/Net/ControlPoint/CpiStack.h>
 #include <OpenHome/Debug.h>
-#include <OpenHome/Net/CpProxy.h>
+#include <OpenHome/Net/ControlPoint/CpProxy.h>
 #include <OpenHome/Net/Error.h>
-#include <OpenHome/Net/CpiSubscription.h>
+#include <OpenHome/Net/ControlPoint/CpiSubscription.h>
 
 #include <stdio.h>
 #include <stdlib.h>

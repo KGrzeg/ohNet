@@ -5,11 +5,11 @@
 #include <OpenHome/Thread.h>
 #include <OpenHome/Timer.h>
 #include <Os/OsWrapper.h>
-#include <OpenHome/Net/CpDevice.h>
-#include <OpenHome/Net/CpDeviceUpnp.h>
+#include <OpenHome/Net/ControlPoint/CpDevice.h>
+#include <OpenHome/Net/ControlPoint/CpDeviceUpnp.h>
 #include <OpenHome/Env.h>
 #include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
-#include <OpenHome/Net/CpOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Net/ControlPoint/CpOpenhomeOrgTestBasic1.h>
 #include "TestBasicDv.h"
 #include <OpenHome/Net/Globals.h>
 

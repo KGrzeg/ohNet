@@ -3,7 +3,7 @@
 #include "TestBasicDv.h"
 #include <OpenHome/Net/Device/DvStack.h>
 #include <OpenHome/Net/Device/DvOpenhomeOrgTestBasic1.h>
-#include <OpenHome/Net/CpOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Net/ControlPoint/CpOpenhomeOrgTestBasic1.h>
 #include <OpenHome/Net/Device/Upnp/DviProviderSubscriptionLongPoll.h>
 #include <OpenHome/File.h>
 #include <OpenHome/Net/Device/DviStack.h>

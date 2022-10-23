@@ -2,7 +2,7 @@
 #define HEADER_TESTBASICCPC
 
 #include <OpenHome/Types.h>
-#include <OpenHome/Net/Bindings/C/CpDevice.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpDeviceC.h>
 
 namespace OpenHome {
 namespace Net {

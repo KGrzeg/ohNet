@@ -5,7 +5,7 @@
 #ifndef HEADER_XML_FETCHER
 #define HEADER_XML_FETCHER
 
-#include <OpenHome/Net/AsyncPrivate.h>
+#include <OpenHome/Net/ControlPoint/AsyncPrivate.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Uri.h>
 #include <OpenHome/Types.h>

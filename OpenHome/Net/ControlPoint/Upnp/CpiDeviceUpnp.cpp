@@ -1,9 +1,9 @@
-#include <OpenHome/Net/CpiDeviceUpnp.h>
-#include <OpenHome/Net/CpiDevice.h>
+#include <OpenHome/Net/ControlPoint/CpiDeviceUpnp.h>
+#include <OpenHome/Net/ControlPoint/CpiDevice.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Env.h>
 #include <OpenHome/Net/ControlPoint/CpiStack.h>
-#include <OpenHome/Net/CpiService.h>
+#include <OpenHome/Net/ControlPoint/CpiService.h>
 #include <OpenHome/Stream.h>
 #include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Http.h>
@@ -16,7 +16,7 @@
 #include <OpenHome/Converter.h>
 #include <OpenHome/Debug.h>
 #include <OpenHome/Net/DeviceXml.h>
-#include <OpenHome/Net/CpiSubscription.h>
+#include <OpenHome/Net/ControlPoint/CpiSubscription.h>
 #include <OpenHome/NetworkAdapterList.h>
 #include <Os/OsWrapper.h>
 #include <OpenHome/Net/Globals.h>

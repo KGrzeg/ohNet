@@ -1,8 +1,8 @@
 #include <OpenHome/TestFramework/TestFramework.h>
-#include <OpenHome/Net/CpStack.h>
+#include <OpenHome/Net/ControlPoint/CpStack.h>
 #include <OpenHome/Net/Device/DvStack.h>
 #include <OpenHome/Net/Device/DvOpenhomeOrgTestBasic1.h>
-#include <OpenHome/Net/CpOpenhomeOrgTestBasic1.h>
+#include <OpenHome/Net/ControlPoint/CpOpenhomeOrgTestBasic1.h>
 #include <OpenHome/Ascii.h>
 #include <OpenHome/Env.h>
 #include <OpenHome/Net/Device/DviStack.h>

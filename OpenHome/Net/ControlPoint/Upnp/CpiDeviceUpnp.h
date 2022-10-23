@@ -13,8 +13,8 @@
 #include <OpenHome/Thread.h>
 #include <OpenHome/Net/Discovery.h>
 #include <OpenHome/Timer.h>
-#include <OpenHome/Net/CpiDevice.h>
-#include <OpenHome/Net/CpiService.h>
+#include <OpenHome/Net/ControlPoint/CpiDevice.h>
+#include <OpenHome/Net/ControlPoint/CpiService.h>
 #include <OpenHome/Net/DeviceXml.h>
 #include <OpenHome/Net/XmlFetcher.h>
 #include <OpenHome/Env.h>

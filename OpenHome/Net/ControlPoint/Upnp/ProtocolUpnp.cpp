@@ -6,7 +6,7 @@
 #include <OpenHome/Converter.h>
 #include <OpenHome/Env.h>
 #include <OpenHome/Net/ControlPoint/CpiStack.h>
-#include <OpenHome/Net/CpiSubscription.h>
+#include <OpenHome/Net/ControlPoint/CpiSubscription.h>
 #include <OpenHome/Net/Subscription.h>
 
 using namespace OpenHome;

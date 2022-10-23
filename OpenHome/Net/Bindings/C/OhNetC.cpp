@@ -7,7 +7,7 @@
 #include <OpenHome/Net/Globals.h>
 #include <Os/OsWrapper.h>
 #include <OpenHome/Net/ControlPoint/CpiStack.h>
-#include <OpenHome/Net/CpiSubscription.h>
+#include <OpenHome/Net/ControlPoint/CpiSubscription.h>
 
 #include <stdlib.h>
 

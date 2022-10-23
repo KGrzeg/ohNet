@@ -8,7 +8,7 @@
 #include <OpenHome/Thread.h>
 #include <OpenHome/Timer.h>
 #include <Os/OsWrapper.h>
-#include <OpenHome/Net/CpDeviceUpnp.h>
+#include <OpenHome/Net/ControlPoint/CpDeviceUpnp.h>
 #include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
 #include <OpenHome/Net/Globals.h>
 

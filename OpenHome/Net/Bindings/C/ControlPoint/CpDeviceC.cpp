@@ -1,5 +1,5 @@
-#include <OpenHome/Net/Bindings/C/CpDevice.h>
-#include <OpenHome/Net/CpiDevice.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpDeviceC.h>
+#include <OpenHome/Net/ControlPoint/CpiDevice.h>
 
 #include <stdlib.h>
 #include <string.h>

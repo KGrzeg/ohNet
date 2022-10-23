@@ -2,7 +2,7 @@
 #define HEADER_CPDEVICEDVC
 
 #include <OpenHome/Defines.h>
-#include <OpenHome/Net/Bindings/C/CpDevice.h>
+#include <OpenHome/Net/Binding/C/ControlPoint/CpDeviceC.h>
 #include <OpenHome/Net/Bindings/C/DvDevice.h>
 
 #ifdef __cplusplus

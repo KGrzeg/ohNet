@@ -13,12 +13,12 @@
 #include <OpenHome/Types.h>
 #include <OpenHome/Buffer.h>
 #include <OpenHome/Net/Service.h>
-#include <OpenHome/Net/CpiDevice.h>
+#include <OpenHome/Net/ControlPoint/CpiDevice.h>
 #include <OpenHome/Thread.h>
 #include <OpenHome/Fifo.h>
 #include <OpenHome/Timer.h>
 #include <OpenHome/Functor.h>
-#include <OpenHome/Net/AsyncPrivate.h>
+#include <OpenHome/Net/ControlPoint/AsyncPrivate.h>
 #include <OpenHome/Net/Error.h>
 #include <OpenHome/Net/OhNet.h>
 #include <OpenHome/Net/ControlPoint/CpiStack.h>

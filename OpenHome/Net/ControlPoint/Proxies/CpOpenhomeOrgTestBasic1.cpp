@@ -1,11 +1,11 @@
 #include "CpOpenhomeOrgTestBasic1.h"
-#include <OpenHome/Net/CpProxy.h>
-#include <OpenHome/Net/CpiService.h>
+#include <OpenHome/Net/ControlPoint/CpProxy.h>
+#include <OpenHome/Net/ControlPoint/CpiService.h>
 #include <OpenHome/Thread.h>
-#include <OpenHome/Net/AsyncPrivate.h>
-#include <OpenHome/Net/CpDevice.h>
+#include <OpenHome/Net/ControlPoint/AsyncPrivate.h>
+#include <OpenHome/Net/ControlPoint/CpDevice.h>
 #include <OpenHome/Net/Error.h>
-#include <OpenHome/Net/CpiDevice.h>
+#include <OpenHome/Net/ControlPoint/CpiDevice.h>
 
 namespace OpenHome {
 namespace Net {
