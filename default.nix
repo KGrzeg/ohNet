@@ -10,6 +10,7 @@ with pkgs;
 mkShell {
   buildInputs = [
     cmake
+    gdb
     gcc
     gnumake
     ninja
