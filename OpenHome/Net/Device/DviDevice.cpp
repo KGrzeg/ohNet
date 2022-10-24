@@ -5,7 +5,7 @@
 #include <OpenHome/Parser.h>
 #include <OpenHome/Printer.h>
 #include <OpenHome/Net/Device/DviStack.h>
-#include <OpenHome/Net/Device/Upnp/DviProviderSubscriptionLongPoll.h>
+#include <OpenHome/Net/Device/DviProviderSubscriptionLongPoll.h>
 #include <OpenHome/Net/Device/Upnp/DviProtocolUpnp.h> // for DviProtocolUpnp ctor only
 
 using namespace OpenHome;

@@ -56,7 +56,7 @@
 #include <execinfo.h>
 #endif
 
-#include <OpenHome/Os.h>
+#include <Os/Os.h>
 
 #define kMinStackBytes (1024 * 512)
 #define kThreadSchedPolicy (SCHED_RR)

@@ -7,7 +7,7 @@
 #include <OpenHome/Net/Device/Upnp/DviServerWebSocket.h>
 #include <OpenHome/Net/Device/Bonjour/Bonjour.h>
 #include <OpenHome/Net/Device/DviPropertyUpdateCollection.h>
-#include <OpenHome/Net/Device/Upnp/DviProtocolLpec.h>
+#include <OpenHome/Net/Device/Lpec/DviProtocolLpec.h>
 
 using namespace OpenHome;
 using namespace OpenHome::Net;

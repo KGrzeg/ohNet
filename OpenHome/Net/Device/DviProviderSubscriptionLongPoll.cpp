@@ -1,4 +1,4 @@
-#include <OpenHome/Net/Device/Upnp/DviProviderSubscriptionLongPoll.h>
+#include <OpenHome/Net/Device/DviProviderSubscriptionLongPoll.h>
 #include <OpenHome/Net/Device/Upnp/DviServerWebSocket.h> // FIXME eugh! Should factor out DviPropertyUpdateCollection and friends
 #include <OpenHome/Net/Device/DviStack.h>
 #include <OpenHome/Net/Device/DviDevice.h>

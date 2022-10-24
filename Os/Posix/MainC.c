@@ -5,7 +5,7 @@
 #include <sys/types.h>
 #include <stdio.h>
 
-#include <OpenHome/Net/C/OhNet.h>
+#include <OpenHome/Net/Bindings/C/OhNet.h>
 
 
 void logger(void* aPtr, const char* aMsg)

@@ -140,13 +140,22 @@ set(src_devices
 )
 
 file(GLOB all_files
-  "OpenHome/*/*.h"
-  "OpenHome/*/*.cpp"
+  "OpenHome/**/*.cpp"
+  "OpenHome/Net/Device/Bonjour/*.cpp"
+  "OpenHome/Net/Device/*.cpp"
+  "OpenHome/Net/Tests/*.cpp"
+  "OpenHome/*.cpp"
 
-  "Os/Posix/*.h"
   "Os/Posix/*.cpp"
-  "Os/*.h"
+  "Os/Posix/*.c"
   "Os/*.cpp"
+
+  thirdparty/libb64/cencode.c
+  thirdparty/libb64/cdecode.c
+
+  thirdparty/mDNSResponder-1310.80.1/mDNSCore/*.c
+  thirdparty/mDNSResponder-1310.80.1/mDNSShared/dnssd_clientshim.c
+  thirdparty/mDNSResponder-1310.80.1/mDNSShared/dnssd_clientlib.c
 )
 
 file(GLOB all_files_prec
@@ -164,7 +173,6 @@ file(GLOB all_files_prec
 )
 
 file(GLOB test_files
-  OpenHome/TestFramework/*.h
   OpenHome/TestFramework/*.cpp
 )
 
@@ -178,6 +186,7 @@ target_include_directories(
   ohNetCore PUBLIC $<INSTALL_INTERFACE:include>
   "$<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}>"
   "$<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}>/thirdparty/mDNSResponder-1310.80.1/mDNSShared"
+  "$<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}>/thirdparty/mDNSResponder-1310.80.1/mDNSCore"
 )
 # target_include_directories(
 #   exception PUBLIC $<INSTALL_INTERFACE:include>
@@ -189,6 +198,7 @@ target_include_directories(
   "$<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}>/thirdparty/mDNSResponder-1310.80.1/mDNSCore")
 
 target_compile_definitions(ohNetCore PUBLIC DEFINE_LITTLE_ENDIAN)
+target_compile_definitions(ohNetCore PUBLIC _GNU_SOURCE)
 # target_compile_definitions(exception PUBLIC DEFINE_LITTLE_ENDIAN)
 target_compile_definitions(testFramework PUBLIC DEFINE_LITTLE_ENDIAN)
 
