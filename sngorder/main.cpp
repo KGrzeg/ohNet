@@ -8,6 +8,7 @@
 #include <OpenHome/Net/ControlPoint/CpDeviceUpnp.h>
 #include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
 #include <OpenHome/Net/ControlPoint/Proxies/CpAvOpenhomeOrgSender1.h>
+#include <OpenHome/TIpAddressUtils.h>
 
 #include <iostream>
 #include <sstream>
@@ -70,7 +71,9 @@ int CDECL main(int aArgc, char *aArgv[])
   TIpAddress adapter = (*subnetList)[offset]->Address();
   Library::DestroySubnetList(subnetList);
 
-  printf("Using subnet %d.%d.%d.%d\n", subnet & 0xff, (subnet >> 8) & 0xff, (subnet >> 16) & 0xff, (subnet >> 24) & 0xff);
+  TIpAddressUtils::AddressBuf buf;
+  TIpAddressUtils::ToString(subnet, buf);
+  printf("Using subnet %.*s\n", PBUF(buf));
 
   // TUint ttl = optionTtl.Value();
   /* TUint ttl = 1;

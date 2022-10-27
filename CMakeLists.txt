@@ -77,7 +77,7 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 find_package (Threads)
 
 add_executable(sngorder sngorder/main.cpp)
-add_dependencies(sngorder ohNetCore)
+target_link_libraries(sngorder PUBLIC ohNetCore)
 target_compile_features(sngorder PRIVATE cxx_auto_type)
 target_include_directories(
   sngorder PUBLIC $<INSTALL_INTERFACE:include>
