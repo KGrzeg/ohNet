@@ -3,12 +3,20 @@
 #include <OpenHome/Thread.h>
 // #include <OpenHome/OptionParser.h>
 #include <OpenHome/Debug.h>
-#include <OpenHome/Net/OhNet.h>
-#include <OpenHome/Net/ControlPoint/CpDevice.h>
-#include <OpenHome/Net/ControlPoint/CpDeviceUpnp.h>
-#include <OpenHome/Net/ControlPoint/FunctorCpDevice.h>
-#include <OpenHome/Net/ControlPoint/Proxies/CpAvOpenhomeOrgSender1.h>
+#include <OpenHome/Net/Core/OhNet.h>
+#include <OpenHome/Net/Cpp/CpDevice.h>
+#include <OpenHome/Net/Cpp/CpDeviceUpnp.h>
+#include <OpenHome/Net/Cpp/FunctorCpDevice.h>
+// #include <OpenHome/Net/Bindings/Cpp/ControlPoint/CpDeviceUpnp.h>
+// #include <OpenHome/Net/Bindings/Cpp/ControlPoint/FunctorCpDevice.h>
+// #include <OpenHome/Net/Bindings/Cpp/ControlPoint/Proxies/CpAvOpenhomeOrgSender1.h>
+// #include <OpenHome/Net/Bindings/Cpp/ControlPoint/CpDevice.h>
 #include <OpenHome/TIpAddressUtils.h>
+
+#include <OpenHome/Buffer.h>
+#include <OpenHome/Timer.h>
+#include <OpenHome/Uri.h>
+#include <OpenHome/Fifo.h>
 
 #include <iostream>
 #include <sstream>
@@ -21,6 +29,8 @@
 #include <termios.h>
 #include <unistd.h>
 #define CDECL
+
+// #include "OhmReceiver.h"
 
 #include <OpenHome/Net/XmlParser.h>
 
@@ -59,6 +69,43 @@ int mygetch()
   return ch;
 }
 
+class DeviceList
+{
+  private:
+    std::vector<CpDeviceCpp*> iVector;
+  public:
+    void Added(CpDeviceCpp& aDevice)
+    {
+      iVector.push_back(&aDevice);
+      aDevice.AddRef();
+    }
+    void Removed(CpDeviceCpp& aDevice)
+    {
+      const std::string udn = aDevice.Udn();
+      for (size_t i=0; i<iVector.size(); i++) {
+	if (iVector[i]->Udn() == udn) {
+	  iVector[i]->RemoveRef();
+	  iVector.erase(iVector.begin() +i);
+	}
+      }
+    }
+    CpDeviceCpp& getDevice(size_t index)
+    {
+      return *iVector[index];
+    }
+vector<CpDeviceCpp*>& getDevices()
+{
+return iVector;
+}
+    ~DeviceList()
+    {const TUint count = (TUint)iVector.size();
+      for (TUint i=0; i<count; i++) {
+	iVector[i]->RemoveRef();
+      }
+      iVector.clear();
+    }
+};
+
 int CDECL main(int aArgc, char *aArgv[])
 {
   InitialisationParams *initParams = InitialisationParams::Create();
@@ -76,9 +123,9 @@ int CDECL main(int aArgc, char *aArgv[])
   printf("Using subnet %.*s\n", PBUF(buf));
 
   // TUint ttl = optionTtl.Value();
-  /* TUint ttl = 1;
-  OhmReceiverDriver *driver = new OhmReceiverDriver();
-  OhmReceiver *receiver = new OhmReceiver(*env, adapter, ttl, *driver);
+  TUint ttl = 1;
+  // OhmReceiverDriver *driver = new OhmReceiverDriver();
+  // OhmReceiver *receiver = new OhmReceiver(*env, adapter, ttl, *driver);
 
   UpnpLibrary::StartCp(subnet);
 
@@ -97,7 +144,7 @@ int CDECL main(int aArgc, char *aArgv[])
   }
 
   auto vec = deviceList->getDevices();
-  pos = 1;
+  auto pos = 1;
   for (auto iter = vec.begin(); iter != vec.end(); ++iter, ++pos)
   {
     std::string val;
@@ -109,7 +156,7 @@ int CDECL main(int aArgc, char *aArgv[])
 
   CpProxyAvOpenhomeOrgSender1Cpp *sender = new CpProxyAvOpenhomeOrgSender1Cpp(deviceList->getDevice(offset));
   cout << "Please wait";
-  fflush(stdout); */
+  fflush(stdout);
 
   return 0;
 }

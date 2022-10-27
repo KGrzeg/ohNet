@@ -16,6 +16,7 @@ file(GLOB all_files
   "OpenHome/**/*.cpp"
   "OpenHome/Net/Device/Bonjour/*.cpp"
   "OpenHome/Net/Device/*.cpp"
+  "OpenHome/Net/ControlPoint/*.cpp"
   "OpenHome/Net/Tests/*.cpp"
   "OpenHome/*.cpp"
 
@@ -76,7 +77,7 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 find_package (Threads)
 
-add_executable(sngorder sngorder/main.cpp)
+add_executable(sngorder sngorder/main.cpp )
 target_link_libraries(sngorder PUBLIC ohNetCore)
 target_compile_features(sngorder PRIVATE cxx_auto_type)
 target_include_directories(
