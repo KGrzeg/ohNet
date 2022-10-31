@@ -18,6 +18,7 @@ file(GLOB all_files
   "OpenHome/Net/Device/*.cpp"
   "OpenHome/Net/ControlPoint/*.cpp"
   "OpenHome/Net/Tests/*.cpp"
+  "OpenHome/Net/Bindings/Cpp/**/*.cpp"
   "OpenHome/*.cpp"
 
   "Os/Posix/*.cpp"
@@ -68,25 +69,5 @@ target_compile_definitions(TestBufferMain PUBLIC DEFINE_LITTLE_ENDIAN)
 add_executable(TestBuffer OpenHome/Tests/TestBuffer.cpp)
 target_link_libraries(TestBuffer PUBLIC ohNetCore testFramework TestBufferMain)
 
-# sngorder
-# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
-# set(DYLIB_EXT so)
-
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
-set(CMAKE_POSITION_INDEPENDENT_CODE ON)
-
-find_package (Threads)
-
-add_executable(sngorder sngorder/main.cpp )
-target_link_libraries(sngorder PUBLIC ohNetCore)
-target_compile_features(sngorder PRIVATE cxx_auto_type)
-target_include_directories(
-  sngorder PUBLIC $<INSTALL_INTERFACE:include>
-  "$<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}>"
-  "$<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}>/thirdparty/mDNSResponder-1310.80.1/mDNSShared"
-  "$<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}>/thirdparty/mDNSResponder-1310.80.1/mDNSCore"
-)
-target_compile_definitions(sngorder PUBLIC DEFINE_LITTLE_ENDIAN)
-
-
-
+add_executable(finder src/finder.cpp)
+target_link_libraries(finder PUBLIC ohNetCore)
