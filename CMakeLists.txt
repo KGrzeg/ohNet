@@ -125,13 +125,13 @@ set(SourcesMain
     OpenHome/Net/Bindings/C/OhNetCCp.cpp
     OpenHome/Net/Bindings/C/OhNetCDv.cpp
     OpenHome/Net/Bindings/C/OhNetCCombined.cpp
+
     Os/OsWrapper.cpp
     Os/${platform}/File.cpp
     Os/${platform}/TerminalOs.cpp
     Os/${platform}/Os.c
     Os/${platform}/SignalHandlers.cpp
 
-    # Os/${platform}/Main.cpp
     OpenHome/Shell/Shell.cpp
     OpenHome/Shell/InfoProvider.cpp
     OpenHome/Shell/ShellCommandDebug.cpp
@@ -211,7 +211,6 @@ set(NetDeviceBonjourmDNSCore_root mDNSDebug.h mDNSEmbeddedAPI.h)
 set(NetDeviceBonjourmDNSShared mDNSFeatures.h dns_sd.h dns_sd_internal.h dns_sd_private.h)
 set(NetDeviceBonjourmDNSShared_prv dns_sd.h)
 set(TestFramework TestFramework.h OptionParser.h SuiteUnitTest.h TimerFactoryMock.h)
-message("CMake source dir is " ${CMAKE_SOURCE_DIR})
 
 header_copy(header1 IncludeBase IncludeCopy ${CMAKE_SOURCE_DIR}/OpenHome ${CMAKE_CURRENT_BINARY_DIR}/Temp/OpenHome/Private "${PrivateHeaderFiles}")
 header_copy(header2 IncludeBase IncludeCopy ${CMAKE_SOURCE_DIR}/OpenHome ${CMAKE_CURRENT_BINARY_DIR}/Temp/OpenHome "${HeaderFiles}")
@@ -245,7 +244,6 @@ header_copy(header29 IncludeBase IncludeCopy ${CMAKE_SOURCE_DIR}/${mDNSdir}/mDNS
 header_copy(header30 IncludeBase IncludeCopy ${CMAKE_SOURCE_DIR}/OpenHome/TestFramework ${CMAKE_CURRENT_BINARY_DIR}/Temp/OpenHome/Private "${TestFramework}")
 header_copy(header31 IncludeBase IncludeCopy ${CMAKE_SOURCE_DIR}/${mDNSdir}/mDNSCore ${CMAKE_CURRENT_BINARY_DIR}/Temp/ "${NetDeviceBonjourmDNSCore_root}")
 
-message("Creating files in " ${CMAKE_CURRENT_BINARY_DIR}/Temp/OpenHome)
 target_include_directories(ohNet SYSTEM PRIVATE ${CMAKE_CURRENT_BINARY_DIR}/Temp)
 
 target_include_directories(
@@ -263,25 +261,6 @@ target_compile_definitions(ohNet PUBLIC ${ENDIANNESS})
 add_dependencies(ohNet IncludeCopy)
 target_link_libraries(ohNet PUBLIC libb64::libb64)
 
-# tests
-
-# file(GLOB test_files
-# OpenHome/TestFramework/*.cpp
-# )
-# add_library(testFramework ${test_files})
-# target_include_directories(testFramework SYSTEM PRIVATE ${CMAKE_CURRENT_BINARY_DIR}/Temp)
-# target_compile_definitions(testFramework PUBLIC ${ENDIANNESS})
-# target_compile_definitions(testFramework PUBLIC _GNU_SOURCE)
-
-# add_library(TestBufferMain OpenHome/Tests/TestBufferMain.cpp)
-# target_include_directories(TestBufferMain SYSTEM PRIVATE ${CMAKE_CURRENT_BINARY_DIR}/Temp)
-# target_compile_definitions(TestBufferMain PUBLIC ${ENDIANNESS})
-# target_compile_definitions(TestBufferMain PUBLIC _GNU_SOURCE)
-
-# add_executable(TestBuffer OpenHome/Tests/TestBuffer.cpp)
-# target_compile_definitions(TestBuffer PUBLIC _GNU_SOURCE)
-# target_include_directories(TestBuffer SYSTEM PRIVATE ${CMAKE_CURRENT_BINARY_DIR}/Temp)
-# target_link_libraries(TestBuffer PUBLIC ohNet testFramework TestBufferMain)
 add_executable(finder src/finder.cpp)
 target_include_directories(finder SYSTEM PRIVATE ${CMAKE_CURRENT_BINARY_DIR}/Temp)
 target_compile_definitions(finder PUBLIC ${ENDIANNESS})
