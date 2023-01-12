@@ -211,6 +211,7 @@ set(NetDeviceBonjourmDNSCore_root mDNSDebug.h mDNSEmbeddedAPI.h)
 set(NetDeviceBonjourmDNSShared mDNSFeatures.h dns_sd.h dns_sd_internal.h dns_sd_private.h)
 set(NetDeviceBonjourmDNSShared_prv dns_sd.h)
 set(TestFramework TestFramework.h OptionParser.h SuiteUnitTest.h TimerFactoryMock.h)
+set(MissingNetCoreHeaders Crc32.h)
 
 header_copy(header1 IncludeBase IncludeCopy ${CMAKE_SOURCE_DIR}/OpenHome ${CMAKE_CURRENT_BINARY_DIR}/Temp/OpenHome/Private "${PrivateHeaderFiles}")
 header_copy(header2 IncludeBase IncludeCopy ${CMAKE_SOURCE_DIR}/OpenHome ${CMAKE_CURRENT_BINARY_DIR}/Temp/OpenHome "${HeaderFiles}")
@@ -243,6 +244,7 @@ header_copy(header28 IncludeBase IncludeCopy ${CMAKE_SOURCE_DIR}/${mDNSdir}/mDNS
 header_copy(header29 IncludeBase IncludeCopy ${CMAKE_SOURCE_DIR}/${mDNSdir}/mDNSShared ${CMAKE_CURRENT_BINARY_DIR}/Temp/OpenHome/Net/Private "${NetDeviceBonjourmDNSShared_prv}")
 header_copy(header30 IncludeBase IncludeCopy ${CMAKE_SOURCE_DIR}/OpenHome/TestFramework ${CMAKE_CURRENT_BINARY_DIR}/Temp/OpenHome/Private "${TestFramework}")
 header_copy(header31 IncludeBase IncludeCopy ${CMAKE_SOURCE_DIR}/${mDNSdir}/mDNSCore ${CMAKE_CURRENT_BINARY_DIR}/Temp/ "${NetDeviceBonjourmDNSCore_root}")
+header_copy(header32 IncludeBase IncludeCopy ${CMAKE_SOURCE_DIR}/OpenHome ${CMAKE_CURRENT_BINARY_DIR}/Temp/OpenHome/Private "${MissingNetCoreHeaders}")
 
 target_include_directories(ohNet SYSTEM PRIVATE ${CMAKE_CURRENT_BINARY_DIR}/Temp)
 
@@ -275,3 +277,5 @@ endif()
 if(${COMPILE_FOR_RPI})
     find_package(Threads REQUIRED)
 endif()
+
+include(${CMAKE_SOURCE_DIR}/CMake/ohNetCore.cmake)
